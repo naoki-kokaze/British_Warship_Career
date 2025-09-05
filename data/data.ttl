@@ -27,10 +27,10 @@ myData:place_0003 a crm:E53_Place ;
     rdfs:label "Chatham Dockyard"@en .
 
 myData:place_0004 a crm:E53_Place ;
-rdfs:label "Woolwich Dockyard"@en .
+    rdfs:label "Woolwich Dockyard"@en .
 
 myData:place_0005 a crm:E53_Place ;
-rdfs:label "Spithead"@en .
+    rdfs:label "Spithead"@en .
 
 myData:place_0006 a crm:E53_Place ;
     rdfs:label "Deptford Dockyard"@en .
@@ -66,19 +66,19 @@ myData:place_0016 a crm:E53_Place ;
     rdfs:label "Rotherhithe"@en .
 
 myData:place_0017 a crm:E53_Place ;
-rdfs:label "Mediterranean Sea"@en .
+    rdfs:label "Mediterranean Sea"@en .
 
 myData:place_0018 a crm:E53_Place ;
     rdfs:label "Malta"@en .
 
 myData:place_0019 a crm:E53_Place ;
-rdfs:label "Basque Roads"@en .
+    rdfs:label "Basque Roads"@en .
 
 myData:place_0020 a crm:E53_Place ;
-rdfs:label "Cadiz"@en .
+    rdfs:label "Cadiz"@en .
 
 myData:place_0021 a crm:E53_Place ;
-rdfs:label "Lisbon"@en .
+    rdfs:label "Lisbon"@en .
 
 myData:place_0022 a crm:E53_Place ;
     rdfs:label "Ferrol"@en .
@@ -90,7 +90,7 @@ myData:place_0024 a crm:E53_Place ;
     rdfs:label "Walcheron"@en .
 
 myData:place_0025 a crm:E53_Place ;
-rdfs:label "Algiers"@en .
+    rdfs:label "Algiers"@en .
 
 myData:place_0026 a crm:E53_Place ;
     rdfs:label "Genoa"@en .
