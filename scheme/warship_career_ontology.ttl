@@ -26,6 +26,7 @@ crm:P141_assigned a owl:ObjectProperty ;
 :has_ship_role a owl:ObjectProperty ;
                                                          rdfs:subPropertyOf crm:P2_has_type ;
                                                          rdfs:domain crm:E93_Presence ;
+                                                         rdfs:comment "併記される:has_operatinal_statusの値を参照して艦種の性質（戦闘用かどうか）を判断する"@ja ;
                                                          rdfs:range :ShipRole .
 
 crm:P2_has_type a owl:ObjectProperty ;
@@ -246,12 +247,18 @@ crm:E22_Human-Made_Object a owl:Class ;
 
 :CombatCapabilityInvestment a owl:NamedIndividual ,
                                                                   :Investment ;
-                                                    rdfs:comment "前線投入を目的とした改装費（最新砲の搭載、推進機関の更新など）" .
+                                                    rdfs:comment "前線投入を目的とした改装費（最新砲の搭載、推進機関の更新など）"@ja .
 
 :FourthRate a owl:NamedIndividual ,
                                                                   :ShipRating .
 
 :TrainingShip a owl:NamedIndividual ,
+                                                                  :ShipRole .
+
+:GunneryTrainingShip a owl:NamedIndividual ,
+                                                                  :ShipRole .
+
+:EngineersTrainingShip a owl:NamedIndividual ,
                                                                   :ShipRole .
 
 :FirstRate a owl:NamedIndividual ,
@@ -268,7 +275,7 @@ crm:E22_Human-Made_Object a owl:Class ;
 
 :HarbourserviceInvestment a owl:NamedIndividual ,
                                                                   :Investment ;
-                                                    rdfs:comment "病院船・練習艦・宿泊船など、戦闘以外の港湾常置用途への改装費" .
+                                                    rdfs:comment "病院船・練習艦・宿泊船など、戦闘以外の港湾常置用途への改装費"@ja .
 
 :DepotShip a owl:NamedIndividual ,
                                                                  :ShipRole .
@@ -293,5 +300,54 @@ crm:E22_Human-Made_Object a owl:Class ;
 
 :GuardShip a owl:NamedIndividual ,
                                                                  :ShipRole .
-                                                                 
 
+:CoastGuardShip a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:Advancedship a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:Hulk a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:SheerHulk a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:PowderHulk a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:PowderMagazine a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:VictuallingVessel a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:DivisionalShip a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:VictuallingDepot a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:CoalHulk a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:DemonstrationShip a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:FloatingBarracks a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:ReceivingHulk a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:TurretShip a owl:NamedIndividual ,
+                                                                 :ShipRole ;
+                                                    rdfs:comment "砲塔艦"@ja .
+
+:Tender a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+:TroopTransport a owl:NamedIndividual ,
+                                                                 :ShipRole .
+
+                                                            
