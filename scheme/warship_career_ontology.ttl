@@ -1,4 +1,5 @@
 @prefix : <http://www.example.com/ontology/warship#> .
+@prefix myData: <http://www.example.com/myData/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,348 +7,430 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
-<http://www.example.com/ontology/warship> a owl:Ontology .
+<http://www.example.com/ontology/warship> a owl:Ontology ;
+  owl:imports
+    <http://www.cidoc-crm.org/cidoc-crm/> ,
+    <http://purl.org/dc/terms/> ,
+    <http://www.sealitproject.eu/ontology/> .
 
 #################################################################
-#    Object Properties
+#    Object Properties - CIDOC CRM
 #################################################################
-
-:converts_into a owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf crm:P31_has_modified ;
-                                                        rdfs:domain :ShipConversion ;
-                                                        rdfs:range :ShipRole .
-
-crm:P141_assigned a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain crm:E13_Attribute_Assignment ;
-                                                         rdfs:range crm:E1_CRM_Entity .
-
-:has_ship_role a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf crm:P2_has_type ;
-                                                         rdfs:domain crm:E93_Presence ;
-                                                         rdfs:comment "併記される:has_operatinal_statusの値を参照して艦種の性質（戦闘用かどうか）を判断する"@ja ;
-                                                         rdfs:range :ShipRole .
 
 crm:P2_has_type a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty .
-
-crm:P196_defines a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain sealit:Ship ;
-                                                         rdfs:range crm:E92_Spacetime_Volume .
-
-crm:P12i_was_present_at a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain sealit:Ship ;
-                                                         rdfs:range crm:E5_Event .
-
-:changes_ship_rating a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf crm:P31_has_modified ;
-                                                         rdfs:domain crm:E11_Modification ;
-                                                         rdfs:range :ShipRating .
-
-crm:P21_had_general_purpose a owl:ObjectProperty ;
-                                                         rdfs:domain crm:E11_Modification ;
-                                                         rdfs:comment ":Investmentを目的語に用いる。ただし、crm:P43_has_dimensionのプロパティを持たない、すなわち費用の記述がないイベントには付与しない。"@ja ;
-                                                         rdfs:range :Investment .
-
-crm:P182_ends_before_or_with_the_start_of a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain crm:E52_Time-Span ;
-                                                         rdfs:range crm:E5_Event .
+    rdfs:subPropertyOf owl:topObjectProperty .
 
 crm:P4_has_time-span a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain crm:E5_Event ;
-                                                         rdfs:range crm:E52_Time-Span .
-
-crm:P31_has_modified a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain :ShipConversion ;
-                                                         rdfs:range sealit:Ship .
-
-crm:P166i_had_presence a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain crm:E92_Spacetime_Volume ;
-                                                         rdfs:range crm:E93_Presence .
-
-crm:P195i_had_presence a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain sealit:Ship ;
-                                                         rdfs:range crm:E93_Presence .
-
-sealit:repaired a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf crm:P31_has_modified ;
-                                                         rdfs:domain sealit:ShipRepair ;
-                                                         rdfs:range sealit:Ship .
-
-:has_operatinal_status a owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf crm:P2_has_type ;
-                                                         rdfs:domain crm:E93_Presence ;
-                                                         rdfs:range :OperationalStatus .
-
-crm:P182i_starts_after_or_with_the_end_of a owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                        rdfs:domain crm:E52_Time-Span ;
-                                                        rdfs:range crm:E5_Event .
-
-:has_ship_rating a owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf crm:P2_has_type ;
-                                                        rdfs:domain crm:E93_Presence ;
-                                                        rdfs:range :ShipRating .
-
-crm:P43_has_dimension a owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                        rdfs:domain crm:E5_Event ;
-                                                        rdfs:range crm:E97_Monetary_Amount .
-
-:changes_operational_status a owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf crm:P141_assigned ;
-                                                        rdfs:domain crm:E7_Activity ;
-                                                        rdfs:range :OperationalStatus .
-
-crm:P164_is_temporally_specified_by a owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                        rdfs:domain crm:E93_Presence ;
-                                                        rdfs:range crm:E52_Time-Span .
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E5_Event ;
+    rdfs:range crm:E52_Time-Span .
 
 crm:P7_took_place_at a owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                        rdfs:domain crm:E5_Event ;
-                                                        rdfs:range crm:E53_Place .
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E5_Event ;
+    rdfs:range crm:E53_Place .
+
+crm:P12i_was_present_at a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain sealit:Ship ;
+    rdfs:range crm:E5_Event .
+
+crm:P21_had_general_purpose a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E5_Event ;
+    rdfs:range  :Investment ;
+    rdfs:comment "Use to record the investment purpose of an event (e.g., CombatCapabilityInvestment / NonCombatDutyInvestment). Attach when the event inherently has a purpose tied to spending; if no cost is recorded, that is allowed but should be justified in rdfs:comment per data policy."@en .
+
+#crm:P31_has_modified a owl:ObjectProperty ;
+#    rdfs:subPropertyOf owl:topObjectProperty ; # Defined broadly here, refined in subproperties
+#    rdfs:domain :ShipConversion ;
+#    rdfs:range sealit:Ship .
+
+crm:P43_has_dimension a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E5_Event ;
+    rdfs:range crm:E97_Monetary_Amount .
+
+crm:P140_assigned_attribute_to a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E13_Attribute_Assignment ;
+    rdfs:range crm:E1_CRM_Entity .
+
+crm:P141_assigned a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E13_Attribute_Assignment ;
+    rdfs:range crm:E1_CRM_Entity .
+
+crm:P164_is_temporally_specified_by a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E93_Presence ;
+    rdfs:range crm:E52_Time-Span .
+
+crm:P166i_had_presence a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E92_Spacetime_Volume ;
+    rdfs:range crm:E93_Presence .
 
 crm:P167_was_within a owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                        rdfs:domain crm:E93_Presence ;
-                                                        rdfs:range crm:E53_Place .
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E93_Presence ;
+    rdfs:range crm:E53_Place .
+
+crm:P180_has_currency a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E97_Monetary_Amount ;
+    rdfs:range crm:E98_Currency .
+
+crm:P182_ends_before_or_with_the_start_of a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E52_Time-Span ;
+    rdfs:range crm:E5_Event .
+
+crm:P182i_starts_after_or_with_the_end_of a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain crm:E52_Time-Span ;
+    rdfs:range crm:E5_Event .
+
+crm:P195i_had_presence a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain sealit:Ship ;
+    rdfs:range crm:E93_Presence .
+
+#crm:P196_defines a owl:ObjectProperty ;
+#    rdfs:subPropertyOf owl:topObjectProperty ;
+#    rdfs:domain sealit:Ship ;
+#    rdfs:range crm:E92_Spacetime_Volume .
 
 #################################################################
-#    Data properties
+#    Object Properties - Sealit
 #################################################################
 
-dcterms:source a owl:DatatypeProperty ;
-                                   rdfs:domain sealit:Ship ;
-                                   rdfs:range rdfs:Literal .
+sealit:repaired a owl:ObjectProperty ;
+    rdfs:subPropertyOf :modifies_ship ;
+    rdfs:domain sealit:ShipRepair ;
+    rdfs:range sealit:Ship .
 
-crm:P80_end_is_qualified_by a owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain crm:E52_Time-Span ;
-                                                         rdfs:range rdfs:Literal .
+#################################################################
+#    Object Properties - Custom (:warship)
+#################################################################
 
-crm:P90_has_value a owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain crm:E97_Monetary_Amount ;
-                                                         rdfs:range rdfs:Literal .
+# Subproperties of crm:P2_has_type
+:has_operational_status a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain crm:E93_Presence ;
+    rdfs:range :OperationalStatus ;
+    rdfs:comment "When representing a ship's career using E93_Presence, limit the assignment of :has_operational_status to one per Presence. If the operational status changes, the Presence must be split. The temporal boundaries of each respective Presence should be linked using crm:P164 and crm:P182. A period that includes repairs must be modeled as a separate Presence (e.g., :UnderRepair) and must not be included in the same Presence as :InOrdinary."@en .
+
+:has_propulsion_type a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain crm:E93_Presence ;
+    rdfs:range :PropulsionType ;
+    rdfs:comment "Specifies the primary means of propulsion for the ship during a specific presence."@en .
+
+:has_ship_rating a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain crm:E93_Presence ;
+    rdfs:range :ShipRating .
+
+:has_ship_role a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain crm:E93_Presence ;
+    rdfs:range :ShipRole ;
+    rdfs:comment "Within a single Presence, :has_ship_role and :has_ship_type must not be assigned simultaneously. If a specific non-combat operational role is defined (e.g., :HospitalShip, :GuardShip), use :has_ship_role and omit :has_ship_type, which is used to express its general function as a warship."@en .
+
+:has_ship_type a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain crm:E93_Presence ;
+    rdfs:range :ShipType ;
+    rdfs:comment "Specifies the fundamental design/tactical classification of the ship during a specific presence."@en .
+
+# Subproperties of crm:P31_has_modified
+:modifies_ship a owl:ObjectProperty ;
+  rdfs:label "modifies ship"@en ;
+  rdfs:comment "Generic link from an E11_Modification event to the ship it modifies."@en ;
+  rdfs:subPropertyOf crm:P31_has_modified ;
+  rdfs:domain crm:E11_Modification ;
+  rdfs:range  sealit:Ship .
+
+:converts_into a owl:ObjectProperty ;
+  rdfs:label "converts into (assigns new ship role in conversion context)"@en ;
+  rdfs:comment "Use alongside the physical modification link (:modifies_ship). For typing/role assignment itself, E13_Attribute_Assignment with P140/P141 is the canonical pattern."@en ;
+  rdfs:domain :ShipConversion ;
+  rdfs:range  :ShipRole .
+
+:incurred_cost a owl:ObjectProperty ;
+  rdfs:label "incurred cost"@en ;
+  rdfs:comment "Cost magnitude (E97_Monetary_Amount) incurred by an activity (typically an E11_Modification)."@en ;
+  rdfs:subPropertyOf crm:P43_has_dimension ;
+  rdfs:domain crm:E5_Event ;
+  rdfs:range  crm:E97_Monetary_Amount .
+
+# Subproperties of crm:P141_assigned
+#:changes_operational_status a owl:ObjectProperty ;
+#    rdfs:subPropertyOf crm:P141_assigned ;
+#    rdfs:domain crm:E7_Activity ;
+#    rdfs:range :OperationalStatus .
+
+:changes_ship_rating a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P141_assigned ;
+    rdfs:domain crm:E13_Attribute_Assignment ;
+    rdfs:range  :ShipRating ;
+    rdfs:comment "Use on E13_Attribute_Assignment that assigns a new :ShipRating to a ship; subsequent E93 presences must reflect the new rating prospectively only."@en .
+
+
+#################################################################
+#    Data properties - CIDOC CRM
+#################################################################
 
 crm:P79_beginning_is_qualified_by a owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain crm:E52_Time-Span ;
-                                                         rdfs:range rdfs:Literal .
+    rdfs:subPropertyOf owl:topDataProperty ;
+    rdfs:domain crm:E52_Time-Span ;
+    rdfs:range rdfs:Literal .
+
+crm:P80_end_is_qualified_by a owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty ;
+    rdfs:domain crm:E52_Time-Span ;
+    rdfs:range rdfs:Literal .
+
+crm:P82_at_some_time_within a owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty ;
+    rdfs:domain crm:E52_Time-Span ;
+    rdfs:range rdfs:Literal .
+
+crm:P90_has_value a owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty ;
+    rdfs:domain crm:E97_Monetary_Amount ;
+    rdfs:range rdfs:Literal .
 
 #################################################################
-#    Classes
+#    Annotation properties - dcterms
 #################################################################
 
-:SmallRepair a owl:Class ;
-                                                         rdfs:subClassOf sealit:ShipRepair .
+dcterms:source a owl:AnnotationProperty .
 
-crm:E12_Production a owl:Class ;
-                                                         rdfs:subClassOf crm:E5_Event .
-
-sealit:ShipRepair a owl:Class ;
-                                                         rdfs:subClassOf crm:E11_Modification .
-
-:LargeRepair a owl:Class ;
-                                                         rdfs:subClassOf sealit:ShipRepair .
-
-crm:E7_Activity a owl:Class ;
-                                                         rdfs:subClassOf crm:E5_Event .
-
-sealit:Ship a owl:Class ;
-                                                         rdfs:subClassOf crm:E22_Human-Made_Object .
-
-:Decommissioning a owl:Class ;
-                                                         rdfs:subClassOf crm:E7_Activity .
-
-crm:E93_Presence a owl:Class ;
-                                                         rdfs:subClassOf crm:E92_Spacetime_Volume .
-
-:Recommissioning a owl:Class ;
-                                                         rdfs:subClassOf crm:E7_Activity .
-
-crm:E13_Attribute_Assignment a owl:Class ;
-                                                         rdfs:subClassOf crm:E5_Event .
-
-:GreatRepair a owl:Class ;
-                                                         rdfs:subClassOf sealit:ShipRepair .
-
-crm:E53_Place a owl:Class ;
-                                                         rdfs:subClassOf crm:E1_CRM_Entity .
-
-crm:E5_Event a owl:Class ;
-                                                         rdfs:subClassOf crm:E1_CRM_Entity .
-
-:ShipRole a owl:Class ;
-                                                         rdfs:subClassOf crm:E55_Type .
-
-crm:E92_Spacetime_Volume a owl:Class ;
-                                                         rdfs:subClassOf crm:E1_CRM_Entity .
-
-:Investment a owl:Class ;
-                                                         rdfs:subClassOf crm:E55_Type .
-
-:ShipRating a owl:Class ;
-                                                         rdfs:subClassOf crm:E55_Type .
-
-:Refit a owl:Class ;
-                                                         rdfs:subClassOf sealit:ShipRepair .
-
-:ShipConversion a owl:Class ;
-                                                         rdfs:subClassOf crm:E11_Modification .
-
-crm:E52_Time-Span a owl:Class ;
-                                                         rdfs:subClassOf crm:E1_CRM_Entity .
-
-:OperationalStatus a owl:Class ;
-                                                         rdfs:subClassOf crm:E55_Type .
-
-:MiddlingRepair a owl:Class ;
-                                                         rdfs:subClassOf sealit:ShipRepair .
-
-crm:E97_Monetary_Amount a owl:Class ;
-                                                         rdfs:subClassOf crm:E1_CRM_Entity .
-
-:Commissioning a owl:Class ;
-                                                        rdfs:subClassOf crm:E7_Activity .
-
-crm:E55_Type a owl:Class ;
-                                                        rdfs:subClassOf crm:E1_CRM_Entity .
+#################################################################
+#    Classes - CIDOC CRM
+#################################################################
 
 crm:E1_CRM_Entity a owl:Class .
 
-crm:E98_Currency a owl:Class ;
-                                                        rdfs:subClassOf crm:E55_Type .
+crm:E5_Event a owl:Class ;
+    rdfs:subClassOf crm:E1_CRM_Entity .
+
+crm:E7_Activity a owl:Class ;
+    rdfs:subClassOf crm:E5_Event .
 
 crm:E11_Modification a owl:Class ;
-                                                        rdfs:subClassOf crm:E5_Event .
+    rdfs:subClassOf crm:E5_Event .
+
+crm:E12_Production a owl:Class ;
+    rdfs:subClassOf crm:E5_Event .
+
+crm:E13_Attribute_Assignment a owl:Class ;
+    rdfs:subClassOf crm:E5_Event .
 
 crm:E22_Human-Made_Object a owl:Class ;
-                                                        rdfs:subClassOf crm:E1_CRM_Entity .
+    rdfs:subClassOf crm:E1_CRM_Entity .
+
+crm:E52_Time-Span a owl:Class ;
+    rdfs:subClassOf crm:E1_CRM_Entity .
+
+crm:E53_Place a owl:Class ;
+    rdfs:subClassOf crm:E1_CRM_Entity .
+
+crm:E55_Type a owl:Class ;
+    rdfs:subClassOf crm:E1_CRM_Entity .
+
+crm:E92_Spacetime_Volume a owl:Class ;
+    rdfs:subClassOf crm:E1_CRM_Entity .
+
+crm:E93_Presence a owl:Class ;
+    rdfs:subClassOf crm:E92_Spacetime_Volume .
+
+crm:E97_Monetary_Amount a owl:Class ;
+    rdfs:subClassOf crm:E1_CRM_Entity .
+
+crm:E98_Currency a owl:Class ;
+    rdfs:subClassOf crm:E55_Type .
+
+#################################################################
+#    Classes - Sealit
+#################################################################
+
+sealit:Ship a owl:Class ;
+    rdfs:subClassOf crm:E22_Human-Made_Object .
+
+sealit:ShipRepair a owl:Class ;
+    rdfs:subClassOf crm:E11_Modification .
+
+#################################################################
+#    Classes - Custom (:warship)
+#################################################################
+
+# Subclasses of crm:E7_Activity
+:Capture a owl:Class ;
+    rdfs:subClassOf crm:E7_Activity .
+
+:Commissioning a owl:Class ;
+    rdfs:subClassOf crm:E7_Activity .
+
+:Decommissioning a owl:Class ;
+    rdfs:subClassOf crm:E7_Activity .
+
+:Recommissioning a owl:Class ;
+    rdfs:subClassOf crm:E7_Activity .
+
+# Subclasses of crm:E11_Modification
+:ShipConversion a owl:Class ;
+    rdfs:subClassOf crm:E11_Modification .
+
+:FittingForSea a owl:Class ;
+  rdfs:subClassOf crm:E11_Modification ;
+  rdfs:label "Fitting for sea"@en ;
+  rdfs:comment "Outfitting/modifications to prepare a ship for sea."@en ;
+  rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty crm:P31_has_modified ;
+    owl:someValuesFrom sealit:Ship
+  ] .
+
+# Subclasses of crm:E55_Type
+:Investment a owl:Class ;
+    rdfs:subClassOf crm:E55_Type .
+
+:OperationalStatus a owl:Class ;
+    rdfs:subClassOf crm:E55_Type .
+
+:PropulsionType a owl:Class ;
+    rdfs:subClassOf crm:E55_Type ;
+    rdfs:comment "Type classification based on the primary means of propulsion."@en .
+
+:ShipRating a owl:Class ;
+    rdfs:subClassOf crm:E55_Type .
+
+:ShipRole a owl:Class ;
+    rdfs:subClassOf crm:E55_Type .
+
+:ShipType a owl:Class ;
+    rdfs:subClassOf crm:E55_Type ;
+    rdfs:comment "Type classification based on the fundamental design and tactical role (e.g., Ship of the Line, Frigate, Sloop)."@en .
+
+# Subclasses of sealit:ShipRepair
+:GreatRepair a owl:Class ;
+    rdfs:subClassOf sealit:ShipRepair .
+
+:LargeRepair a owl:Class ;
+    rdfs:subClassOf sealit:ShipRepair .
+
+:MiddlingRepair a owl:Class ;
+    rdfs:subClassOf sealit:ShipRepair .
+
+:Refit a owl:Class ;
+    rdfs:subClassOf sealit:ShipRepair .
+
+:SmallRepair a owl:Class ;
+    rdfs:subClassOf sealit:ShipRepair .
+
+# Subclasses of :ShipConversion
+:ScrewConversion a owl:Class ;
+    rdfs:subClassOf :ShipConversion .
 
 #################################################################
 #    Individuals
 #################################################################
 
-:InCommission a owl:NamedIndividual ,
-                                                                  :OperationalStatus .
+# Individuals of :Investment
+:CombatCapabilityInvestment a owl:NamedIndividual , :Investment ;
+    rdfs:comment "Modification costs for frontline deployment (e.g., installation of the latest artillery, renewal of the propulsion system). Depending on the type of investment, this should be recorded concurrently with :incurred_cost."@en .
+:NonCombatDutyInvestment a owl:NamedIndividual , :Investment ;
+    rdfs:comment "Conversion costs for non-combat missions (e.g., hospital ship, training ship, accommodation ship). Depending on the type of investment, this should be recorded concurrently with :incurred_cost."@en .
 
-:HospitalShip a owl:NamedIndividual ,
-                                                                  :ShipRole .
+# Individuals of :OperationalStatus
+:InCommission a owl:NamedIndividual , :OperationalStatus ;
+    rdfs:comment "Active Service: A state of being operational as part of the fleet, primarily engaging in combat duties, overseas deployments, or voyages."@en .
+:InOrdinary a owl:NamedIndividual , :OperationalStatus ;
+    rdfs:comment "Reserve Status: A state of being in storage or receiving only minimal maintenance."@en .
+:UnderRepair a owl:NamedIndividual , :OperationalStatus ;
+    rdfs:comment "Under Repair: A state of being unable to undertake missions, such as being in dry dock."@en .
+:InNonCombatDuty a owl:NamedIndividual , :OperationalStatus ;
+    rdfs:comment "A state of being permanently stationed in a specific port or anchorage to engage in regular, non-combat duties, such as serving as a training ship, accommodation ship, guard ship, or various hulks."@en .
+:UnderFitting a owl:NamedIndividual , :OperationalStatus ;
+    rdfs:comment "Fitting for Sea: A pre-commission (or re-commission) state in which a ship is being equipped and prepared for service—e.g., installing or restoring machinery, rigging, armament, and stores. Distinct from repair; the ship is not yet in commission but is being readied to become operational."@en .
+:PaidOff a owl:NamedIndividual , :OperationalStatus ;
+    rdfs:comment "Post-Commission (Paid Off): A state following the end of a commission in which the crew has been discharged and the ship is not in commission. The vessel remains in Navy ownership and typically awaits its next disposition (e.g., In Ordinary, refit/repair, sale, or breaking up)."@en .
 
-:CombatCapabilityInvestment a owl:NamedIndividual ,
-                                                                  :Investment ;
-                                                    rdfs:comment "前線投入を目的とした改装費（最新砲の搭載、推進機関の更新など）"@ja .
+# Individuals of :PropulsionType
+:PaddleWheel a owl:NamedIndividual , :PropulsionType ; rdfs:label "Paddle Wheel Steam"@en .
+:Sailing a owl:NamedIndividual , :PropulsionType ; rdfs:label "Sailing"@en .
+:ScrewPropeller a owl:NamedIndividual , :PropulsionType ; rdfs:label "Screw Propeller Steam"@en .
 
-:FourthRate a owl:NamedIndividual ,
-                                                                  :ShipRating .
+# Individuals of :ShipRating
+:FifthRate a owl:NamedIndividual , :ShipRating .
+:FirstRate a owl:NamedIndividual , :ShipRating .
+:FourthRate a owl:NamedIndividual , :ShipRating .
+:SecondRate a owl:NamedIndividual , :ShipRating .
+:SixthRate a owl:NamedIndividual , :ShipRating .
+:ThirdRate a owl:NamedIndividual , :ShipRating .
 
-:TrainingShip a owl:NamedIndividual ,
-                                                                  :ShipRole .
+# Individuals of :ShipRole
+:Advancedship a owl:NamedIndividual , :ShipRole ;
+    rdfs:comment "A ship which was complete for service in all respects, with its guns on board, and more of the masting, along with all necessary stores, sails, etc., in an assigned storehouse, but not yet in commission."@en ;
+    dcterms:source "Winfield, Rif. British Warships in the Age of Sail, 1817–1863: Design, Construction, Careers and Fates."@en .
+:CoalHulk a owl:NamedIndividual , :ShipRole .
+:CoastGuardShip a owl:NamedIndividual , :ShipRole .
+:DemonstrationShip a owl:NamedIndividual , :ShipRole ;
+    rdfs:comment "A mobilised unit used to support a diplomatic démarche, fulfilling a deterrent role, although the term is imprecise."@en ;
+    dcterms:source "Winfield, Rif. British Warships in the Age of Sail, 1817–1863: Design, Construction, Careers and Fates."@en .
+:DepotShip a owl:NamedIndividual , :ShipRole .
+:DivisionalShip a owl:NamedIndividual , :ShipRole .
+:EngineersTrainingShip a owl:NamedIndividual , :ShipRole .
+:Flagship a owl:NamedIndividual , :ShipRole .
+:FloatingBarracks a owl:NamedIndividual , :ShipRole .
+:GuardShip a owl:NamedIndividual , :ShipRole .
+:GunneryTrainingShip a owl:NamedIndividual , :ShipRole .
+:HospitalShip a owl:NamedIndividual , :ShipRole .
+:Hulk a owl:NamedIndividual , :ShipRole .
+:Lazarette a owl:NamedIndividual , :ShipRole ;
+    rdfs:comment "A hulk adapted to be used as a floating hospital or isolation ward, often used as accommodation for men in quarantine."@en ;
+    dcterms:source "Winfield, Rif. British Warships in the Age of Sail, 1817–1863: Design, Construction, Careers and Fates."@en .
+:PowderHulk a owl:NamedIndividual , :ShipRole ;
+    rdfs:comment "A vessel for storing and issuing gunpowder. There were usually under the operational control of the Ordnance Dept (a government department separate from both Navy and Army) and were for safety stationed well away from the dockyard to which they were attached."@en ;
+    dcterms:source "Winfield, Rif. British Warships in the Age of Sail, 1817–1863: Design, Construction, Careers and Fates."@en .
+:PowderMagazine a owl:NamedIndividual , :ShipRole .
+:PrisonShip a owl:NamedIndividual , :ShipRole .
+:ReceivingHulk a owl:NamedIndividual , :ShipRole .
+:ReceivingShip a owl:NamedIndividual , :ShipRole ;
+    rdfs:comment "A stationary vessel used as a floating accommodation ship for men between commissions or before they were attached to a specific vessel (in particular, newly pressed men who needed to be isolated from the shore to forestall attempts at desertion)."@en ;
+    dcterms:source "Winfield, Rif. British Warships in the Age of Sail, 1817–1863: Design, Construction, Careers and Fates."@en .
+:SheerHulk a owl:NamedIndividual , :ShipRole ;
+    rdfs:comment "A vessel equipped with a pair of ‘sheer legs’ (two large spars angled together to form an ‘A’ frame) to hoist masts in and out of vessels."@en ;
+    dcterms:source "Winfield, Rif. British Warships in the Age of Sail, 1817–1863: Design, Construction, Careers and Fates."@en .
+:Tender a owl:NamedIndividual , :ShipRole .
+:TrainingShip a owl:NamedIndividual , :ShipRole .
+:TroopTransport a owl:NamedIndividual , :ShipRole .
+:TurretShip a owl:NamedIndividual , :ShipRole .
+:VictuallingDepot a owl:NamedIndividual , :ShipRole .
+:VictuallingVessel a owl:NamedIndividual , :ShipRole .
 
-:GunneryTrainingShip a owl:NamedIndividual ,
-                                                                  :ShipRole .
+# Individuals of :ShipType
+:BrigSloop a owl:NamedIndividual , :ShipType ; rdfs:label "Brig Sloop"@en .
+:CoastalDefenceShip a owl:NamedIndividual , :ShipType ; rdfs:label "Coastal Defence Ship"@en .
+:Cutter a owl:NamedIndividual , :ShipType ; rdfs:label "Cutter"@en .
+:Frigate a owl:NamedIndividual , :ShipType ; rdfs:label "Frigate"@en .
+:Gunboat a owl:NamedIndividual , :ShipType ; rdfs:label "Gunboat"@en .
+:Gunvessel a owl:NamedIndividual , :ShipType ; rdfs:label "Gunvessel"@en .
+:IronFrigate a owl:NamedIndividual , :ShipType ; rdfs:label "Iron Frigate"@en .
+:MiscShip a owl:NamedIndividual , :ShipType ; rdfs:label "Miscellaneous Vessel"@en .
+:PaddleFrigate a owl:NamedIndividual , :ShipType ; rdfs:label "Paddle Frigate"@en .
+:PaddleSloop a owl:NamedIndividual , :ShipType ; rdfs:label "Paddle Sloop"@en .
+:Schooner a owl:NamedIndividual , :ShipType ; rdfs:label "Schooner"@en .
+:ScrewSloop a owl:NamedIndividual , :ShipType ; rdfs:label "Screw Sloop"@en .
+:ShipOfTheLine a owl:NamedIndividual , :ShipType ; rdfs:label "Ship of the Line"@en .
+:Sloop a owl:NamedIndividual , :ShipType ; rdfs:label "Sloop"@en .
+:SteamPaddleVessel a owl:NamedIndividual , :ShipType ; rdfs:label "Steam Paddle Vessel"@en .
+:WoodenCruiser a owl:NamedIndividual , :ShipType ; rdfs:label "Wooden Cruiser"@en .
 
-:EngineersTrainingShip a owl:NamedIndividual ,
-                                                                  :ShipRole .
-
-:FirstRate a owl:NamedIndividual ,
-                                                                  :ShipRating .
-
-:ThirdRate a owl:NamedIndividual ,
-                                                                  :ShipRating .
-
-:Lazarette a owl:NamedIndividual ,
-                                                                  :ShipRole .
-
-:FifthRate a owl:NamedIndividual ,
-                                                                  :ShipRating .
-
-:HarbourserviceInvestment a owl:NamedIndividual ,
-                                                                  :Investment ;
-                                                    rdfs:comment "病院船・練習艦・宿泊船など、戦闘以外の港湾常置用途への改装費"@ja .
-
-:DepotShip a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:SecondRate a owl:NamedIndividual ,
-                                                                 :ShipRating .
-
-:SixthRate a owl:NamedIndividual ,
-                                                                 :ShipRating .
-
-:InOrdinary a owl:NamedIndividual ,
-                                                                 :OperationalStatus .
-
-:Flagship a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:ReceivingShip a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:PrisonShip a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:GuardShip a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:CoastGuardShip a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:Advancedship a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:Hulk a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:SheerHulk a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:PowderHulk a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:PowderMagazine a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:VictuallingVessel a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:DivisionalShip a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:VictuallingDepot a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:CoalHulk a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:DemonstrationShip a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:FloatingBarracks a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:ReceivingHulk a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:TurretShip a owl:NamedIndividual ,
-                                                                 :ShipRole ;
-                                                    rdfs:comment "砲塔艦"@ja .
-
-:Tender a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-:TroopTransport a owl:NamedIndividual ,
-                                                                 :ShipRole .
-
-                                                            
+# Individuals of crm:E98_Currency
+myData:currency_gbp a owl:NamedIndividual , crm:E98_Currency ; rdfs:label "GBP"@en .
