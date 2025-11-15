@@ -1,0 +1,328 @@
+﻿event,event_label,investment_type_label,date,amount,is_production,Year,Amount
+http://www.example.com/myData/event_ACD_0001_01,"Construction and conversion (Ord: 29.6.1848, K: 17.12.1849, L: 25.4.1857, Re-ord: 3.4.1862, C: 20.8.1864)",CombatCapabilityInvestment,1848-06-29,180572.0,Production,1848,180572.0
+http://www.example.com/myData/event_ACD_0002_01,"Built by Samuda Bros, Poplar/Humphrys & Tennant",CombatCapabilityInvestment,1862-04-08,208345.0,Production,1862,208345.0
+http://www.example.com/myData/event_AIF_0001_01,"Construction by Thames Iron Sbdg Co., Blackwall",CombatCapabilityInvestment,1859-05-25,377292.0,Production,1859,377292.0
+http://www.example.com/myData/event_AIF_0003_01,"Built by Palmer Bros, Jarrow",CombatCapabilityInvestment,1859-12-14,252422.0,Production,1859,252422.0
+http://www.example.com/myData/event_AWC_0001_01,Construction of Royal Oak,CombatCapabilityInvestment,1859-04-08,254537.0,Production,1859,254537.0
+http://www.example.com/myData/event_AWC_0007_01,"Built at Deptford Dyd/Ravenhill, Salkeld & Co. Keel laid 5.5.1862, Launched 9.2.1864.",CombatCapabilityInvestment,1861-03-21,62474.0,Production,1861,62474.0
+http://www.example.com/myData/event_PF_0002_04,Small repair at Woolwich (10.1848-10.1849),CombatCapabilityInvestment,1848-10,22186.0,NonProduction,1848,22186.0
+http://www.example.com/myData/event_PF_0002_07,Reboilered at Woolwich (11.1858-6.1859),CombatCapabilityInvestment,1858-11,8230.0,NonProduction,1858,8230.0
+http://www.example.com/myData/event_PF_0003_01,"As built: 190ft 0in, 163ft 8%in x 37ft Sin oa (37ft 2in for tonnage) x 23ft 0in. 1,210bm. 1,960 disp.",CombatCapabilityInvestment,1841-03-18,57773.0,Production,1841,57773.0
+http://www.example.com/myData/event_PF_0008_05,"Re-engined at Woolwich and fitted for sea at Portsmouth (1849-1850) for £36,076",CombatCapabilityInvestment,1849,36076.0,NonProduction,1849,36076.0
+http://www.example.com/myData/event_PGV_0005_07,"Refitted at Woolwich (1854) for £4,612",CombatCapabilityInvestment,1854,4612.0,NonProduction,1854,4612.0
+http://www.example.com/myData/event_PGV_0005_10,"Refitted at Woolwich (1858-59) for £7,847",CombatCapabilityInvestment,1858,7847.0,NonProduction,1858,7847.0
+http://www.example.com/myData/event_PGV_0011_01,"As built: 165ft 2in, 149ft 3in x 26ft 7in x 16ft 7in. 561 4/94bm.",CombatCapabilityInvestment,1844-07-27,35161.0,Production,1844,35161.0
+http://www.example.com/myData/event_PM_0007_01,"Construction at Pembroke Dyd/Fawcett, Preston & Co.",CombatCapabilityInvestment,1839-03-30,37722.0,Production,1839,37722.0
+http://www.example.com/myData/event_PM_0053_02,"Purchased on 24 May 1855 at Constantinople for £7,500",NonCombatDutyInvestment,1855-05-24,7500.0,NonProduction,1855,7500.0
+http://www.example.com/myData/event_PM_0061_02,"Purchased for £9,500 by Admiral Lyons in July 1855",CombatCapabilityInvestment,1855-07,9500.0,NonProduction,1855,9500.0
+http://www.example.com/myData/event_PM_0063_02,"Purchased at Malta for £1,200 for towing mud barges",NonCombatDutyInvestment,1860-07-11,1200.0,NonProduction,1860,1200.0
+http://www.example.com/myData/event_PSL_0003_01,Construction of Hecate,CombatCapabilityInvestment,1838-03-12,27742.0,Production,1838,27742.0
+http://www.example.com/myData/event_PSL_0005_01,Construction of Vesuvius,CombatCapabilityInvestment,1838-03-12,39505.0,Production,1838,39505.0
+http://www.example.com/myData/event_PSL_0022_01,"Built at Pembroke Dockyard, engines by Fawcett, Preston & Co.",CombatCapabilityInvestment,1841-03-18,50114.0,Production,1841,50114.0
+http://www.example.com/myData/event_PSL_0033_04,Refitted for sea at Sheerness (1858),CombatCapabilityInvestment,1858,6684.0,NonProduction,1858,6684.0
+http://www.example.com/myData/event_PSPV_0001_04,"Refitted as a Surveying vessel at Deptford (for £3,195)",NonCombatDutyInvestment,1842,3195.0,NonProduction,1842,3195.0
+http://www.example.com/myData/event_PSPV_0005_01,Built at Deptford Dockyard / Boulton & Watt engine,CombatCapabilityInvestment,1824-05,17243.0,Production,1824,17243.0
+http://www.example.com/myData/event_PSPV_0005_03,Re-engined at Woolwich with new B&W 100nhp engine,CombatCapabilityInvestment,1831-03,4403.0,NonProduction,1831,4403.0
+http://www.example.com/myData/event_PSPV_0005_06,"Rebuilt at Chatham, lengthened",CombatCapabilityInvestment,1839,6908.0,NonProduction,1839,6908.0
+http://www.example.com/myData/event_PSPV_0005_07,Fitted with Carron's engine and new boilers at Woolwich,CombatCapabilityInvestment,1840,8319.0,NonProduction,1840,8319.0
+http://www.example.com/myData/event_PSPV_0005_08,Fitted for trooping at Chatham,NonCombatDutyInvestment,1840,1127.0,NonProduction,1840,1127.0
+http://www.example.com/myData/event_PSPV_0015_01,Construction of HMS Salamander,CombatCapabilityInvestment,1831-01-12,31630.0,Production,1831,31630.0
+http://www.example.com/myData/event_PSPV_0044_01,"Built by George Graham, Harwich (1827)",NonCombatDutyInvestment,1827,12160.0,Production,1827,12160.0
+http://www.example.com/myData/event_PSPV_0044_07,Fitted as a gunvessel,CombatCapabilityInvestment,1854-03,4761.0,NonProduction,1854,4761.0
+http://www.example.com/myData/event_PSPV_0052_03,"Refitted at Woolwich (1840) for £1,751",CombatCapabilityInvestment,1840,1751.0,NonProduction,1840,1751.0
+http://www.example.com/myData/event_PSPV_0054_03,"Refitted and reboilered at Woolwich (for £3,288) 1837-38",CombatCapabilityInvestment,1837,3288.0,NonProduction,1837,3288.0
+http://www.example.com/myData/event_PSPV_0054_08,"Repair at Woolwich (for £3,621) 12.1847-8.1848",CombatCapabilityInvestment,1847-12,3621.0,NonProduction,1847,3621.0
+http://www.example.com/myData/event_SBS_0002_01,Built at Ipswich,CombatCapabilityInvestment,1796-12-19,7950.0,Production,1796,7950.0
+http://www.example.com/myData/event_SBS_0028_01,"As built: 100ft 1 1/2in, 77ft 4in x 30ft 7in x 12ft 9in. 384 70/94bm. Draught 6ft 0in/10ft 10in.",CombatCapabilityInvestment,1806-10-01,9916.0,Production,1806,9916.0
+http://www.example.com/myData/event_SBS_0033_01,"As built: 100ft 3in, 77ft 10in x 30ft ?in x 13ft 0in. 387 22/94bm.",CombatCapabilityInvestment,1808-08-04,5271.0,Production,1808,5271.0
+http://www.example.com/myData/event_SBS_0033_02,Fitting at Sheerness (20.6.1809-16.12.1809),CombatCapabilityInvestment,1809-06-20,6032.0,NonProduction,1809,6032.0
+http://www.example.com/myData/event_SBS_0058_02,Completed at Sheerness,CombatCapabilityInvestment,1813-03-02,5316.0,NonProduction,1813,5316.0
+http://www.example.com/myData/event_SBS_0058_05,Very Small Repair and fitted for sea at Plymouth,CombatCapabilityInvestment,1820-12,6648.0,NonProduction,1820,6648.0
+http://www.example.com/myData/event_SBS_0058_08,"Very Small Repair, rigged as a ship sloop and fitted for sea at Plymouth",CombatCapabilityInvestment,1823-11,10264.0,NonProduction,1823,10264.0
+http://www.example.com/myData/event_SBS_0058_10,Between Very Small and Small Repair and fitted at Plymouth,CombatCapabilityInvestment,1828-03,7091.0,NonProduction,1828,7091.0
+http://www.example.com/myData/event_SBS_0058_13,Between Small and Middling Repair and altered to 16-gun brig at Sheerness,CombatCapabilityInvestment,1833-08,4748.0,NonProduction,1833,4748.0
+http://www.example.com/myData/event_SBS_0092_04,"Between Middling and Large Repair at Chatham (for £5,035)",CombatCapabilityInvestment,1820-01,5035.0,NonProduction,1820,5035.0
+http://www.example.com/myData/event_SBS_0092_05,"Fitted for sea at Chatham (for £3,867)",CombatCapabilityInvestment,1825-12,3867.0,NonProduction,1825,3867.0
+http://www.example.com/myData/event_SBS_0096_05,Between Small and Middling Repair at Chatham (4.1819-6.1820),CombatCapabilityInvestment,1819-04,4546.0,NonProduction,1819,4546.0
+http://www.example.com/myData/event_SBS_0137_01,"As built: 84ft 8in, 70ft 5in x 22ft 1 in x 11ft 1 in. 182 62/94bm. Draught 6ft 8in/8ft 6in.",CombatCapabilityInvestment,1812-11-02,3411.0,Production,1812,3411.0
+http://www.example.com/myData/event_SBS_0139_01,Built at Biddeford,CombatCapabilityInvestment,1812-11-02,3411.0,Production,1812,3411.0
+http://www.example.com/myData/event_SBS_0151_01,"Built at Plymouth Dyd (Ord: 13.6.1817, K: 3.1818, L: 23.7.1819, C: 19.8.1819)",CombatCapabilityInvestment,1817-06-13,8377.0,Production,1817,8377.0
+http://www.example.com/myData/event_SBS_0151_02,"Converted to a packet brig (3.1823-23.9.1823) for £4,260",NonCombatDutyInvestment,1823-03,4260.0,NonProduction,1823,4260.0
+http://www.example.com/myData/event_SBS_0156_02,"Fitted for sea (4.1823-15.9.1824) for £2,877",CombatCapabilityInvestment,1823-04,2877.0,NonProduction,1823,2877.0
+http://www.example.com/myData/event_SBS_0156_06,"Fitted for sea at Plymouth (for £3,033) 4-5.1833",CombatCapabilityInvestment,1833-04,3033.0,NonProduction,1833,3033.0
+http://www.example.com/myData/event_SBS_0156_07,"Very Small Repair and fitted for sea at Plymouth (for £3,176) 8.1837-2.1838",CombatCapabilityInvestment,1837-08,3176.0,NonProduction,1837,3176.0
+http://www.example.com/myData/event_SBS_0161_01,"Built at Woolwich Dyd (Ord: 2.11.1818, L: 11.3.1823, C: 6.3.1824)",CombatCapabilityInvestment,1818-11-02,10026.0,Production,1818,10026.0
+http://www.example.com/myData/event_SBS_0164_02,"Fitting as a packet brig, completed 14.12.1823",CombatCapabilityInvestment,1823-12-14,9860.0,NonProduction,1823,9860.0
+http://www.example.com/myData/event_SBS_0198_11,Broken up (BU) completed at Plymouth 3.12.1845,NonCombatDutyInvestment,1845-12-03,125.0,NonProduction,1845,125.0
+http://www.example.com/myData/event_SBS_0200_01,"As built: 90ft 1in, 72ft 4¾in x 24ft 9¼in (24ft 7¼in for tons) x 11ft 0in. 233.bm.",CombatCapabilityInvestment,1824-12-07,10485.0,Production,1824,10485.0
+http://www.example.com/myData/event_SBS_0216_01,"Built at Sheerness Dockyard. Ord: 20.2.1837, K: 9.1838, L: 24.3.1841, C: 23.10.1841.",CombatCapabilityInvestment,1837-02-20,8387.0,Production,1837,8387.0
+http://www.example.com/myData/event_SBS_0217_05,"Fitted as tender at Sheerness (for £1,765)",NonCombatDutyInvestment,1849-12,1765.0,NonProduction,1849,1765.0
+http://www.example.com/myData/event_SBS_0223_01,Built at Chatham Dyd. C: 22.8.1835,CombatCapabilityInvestment,1832-07-10,24050.0,Production,1832,24050.0
+http://www.example.com/myData/event_SBS_0233_01,Construction and fitting of Express,CombatCapabilityInvestment,1834-07-29,8998.0,Production,1834,8998.0
+http://www.example.com/myData/event_SBS_0233_03,Repaired and fitted at Plymouth (5-7.1848),CombatCapabilityInvestment,1848-05,4294.0,NonProduction,1848,4294.0
+http://www.example.com/myData/event_SBS_0234_02,Fitting at Woolwich,CombatCapabilityInvestment,1836-04-26,3409.0,NonProduction,1836,3409.0
+http://www.example.com/myData/event_SBS_0234_04,"Between Small and Middling Repair and fitted for sea at Plymouth (for £5,912)",CombatCapabilityInvestment,1849-05,5912.0,NonProduction,1849,5912.0
+http://www.example.com/myData/event_SBS_0234_06,"Fitted as a mooring vessel for Cape of Good Hope (for £3,254)",NonCombatDutyInvestment,1860-07,3254.0,NonProduction,1860,3254.0
+http://www.example.com/myData/event_SBS_0237_01,"As built: 95ft 0in, 74ft 9.5in x 30ft 3.5in oa (30ft 0.5in for tonnage) x 14ft 10in. 359.bm.",CombatCapabilityInvestment,1837-02-20,10394.0,Production,1837,10394.0
+http://www.example.com/myData/event_SBS_0237_03,"Refitted at Plymouth (for £5,002) 1-11.1851",CombatCapabilityInvestment,1851-01,5002.0,NonProduction,1851,5002.0
+http://www.example.com/myData/event_SBS_0240_01,"As built: 95ft 0in, 74ft 9 3/4in x 30ft 4 ¼in oa (30ft 1 ¼in for tonnage) x 13ft 6in (rest). 360 45/94bm.",CombatCapabilityInvestment,1837-02-20,11983.0,Production,1837,11983.0
+http://www.example.com/myData/event_SBS_0240_04,Refitted as a sloop at Plymouth (10.1846-5.1847),CombatCapabilityInvestment,1846-10,2657.0,NonProduction,1846,2657.0
+http://www.example.com/myData/event_SBS_0240_06,Very Small Repair and fitted for sea at Plymouth (10.1849-3.1850),CombatCapabilityInvestment,1849-10,2544.0,NonProduction,1849,2544.0
+http://www.example.com/myData/event_SBS_0255_01,"As built: 105ft 0in, 82ft 7.5in x 33ft 6in oa (33ft 2in for tonnage) x 15ft 0in. 483 43/94bm. Draught 7ft 11in/11ft 10in.",CombatCapabilityInvestment,1839-05-24,9267.0,Production,1839,9267.0
+http://www.example.com/myData/event_SBS_0257_01,Built at Chatham Dockyard,CombatCapabilityInvestment,1839-05-24,7806.0,Production,1839,7806.0
+http://www.example.com/myData/event_SBS_0262_01,Built at Pembroke Dockyard,CombatCapabilityInvestment,1844-07-08,9715.0,Production,1844,9715.0
+http://www.example.com/myData/event_SBS_0262_02,Fitted for sea at Plymouth (5-8.1856),CombatCapabilityInvestment,1856-05,7091.0,NonProduction,1856,7091.0
+http://www.example.com/myData/event_SBS_0271_01,"As built: 103ft 1in, 81ft ?in x 32ft 4.5in oa (32ft 0.5in for tonnage) x 14ft 8in. 445 49/94 bm. Draught 8ft 1in/12ft 1in.",CombatCapabilityInvestment,1843-07-10,12907.0,Production,1843,12907.0
+http://www.example.com/myData/event_SC6_0028_01,Built at Deptford by John Dudman,CombatCapabilityInvestment,1795-01-24,8243.0,Production,1795,8243.0
+http://www.example.com/myData/event_SC6_0037_01,"As built: 108ft 6in, 90ft 1 1/4in x 30ft 5in x 9ft 0in. 450 69/94bm.",CombatCapabilityInvestment,1813-01-18,9720.0,Production,1813,9720.0
+http://www.example.com/myData/event_SC6_0055_01,"Built at Cochin (Ord: 5.6.1819, L: 29.3.1821)",CombatCapabilityInvestment,1819-06-05,10999.0,Production,1819,10999.0
+http://www.example.com/myData/event_SC6_0055_03,Fitting at Woolwich (4.1822-3.9.1822),CombatCapabilityInvestment,1822-04,8955.0,NonProduction,1822,8955.0
+http://www.example.com/myData/event_SC6_0057_01,Construction of HMS Samarang,CombatCapabilityInvestment,1819-06-05,10999.0,Production,1819,10999.0
+http://www.example.com/myData/event_SC6_0057_04,Fitting for sea at Portsmouth,CombatCapabilityInvestment,1824-02,8588.0,NonProduction,1824,8588.0
+http://www.example.com/myData/event_SC6_0057_06,"Fitted for sea at Woolwich (4-8.1828) for £7,348",CombatCapabilityInvestment,1828-04,7348.0,NonProduction,1828,7348.0
+http://www.example.com/myData/event_SC6_0057_12,"Refitted at Portsmouth (12.1841-1.1843) for £9,289",CombatCapabilityInvestment,1841-12,9289.0,NonProduction,1841,9289.0
+http://www.example.com/myData/event_SC6_0057_15,"Fitted at Chatham (1-5.1847) as guard ship for Gibraltar for £2,411",NonCombatDutyInvestment,1847-01,2411.0,NonProduction,1847,2411.0
+http://www.example.com/myData/event_SC6_0059_01,Construction of HMS Success,CombatCapabilityInvestment,1819-06-05,23904.0,Production,1819,23904.0
+http://www.example.com/myData/event_SC6_0069_01,Construction and fitting for sea,CombatCapabilityInvestment,1830-10-29,17882.0,Production,1830,17882.0
+http://www.example.com/myData/event_SC6_0069_05,Very small repair and fitted for sea at Plymouth,CombatCapabilityInvestment,1845-02,8197.0,NonProduction,1845,8197.0
+http://www.example.com/myData/event_SC6_0069_08,Between Small and Middling Repair at Plymouth,CombatCapabilityInvestment,1849-06,3287.0,NonProduction,1849,3287.0
+http://www.example.com/myData/event_SC6_0069_10,Fitted for sea at Plymouth,CombatCapabilityInvestment,1850-11,3047.0,NonProduction,1850,3047.0
+http://www.example.com/myData/event_SC6_0081_02,Partially fitted as an Advanced ship,CombatCapabilityInvestment,1856-10,4572.0,NonProduction,1856,4572.0
+http://www.example.com/myData/event_SC6_0084_01,Construction of Eurydice,CombatCapabilityInvestment,1841-08-27,25449.0,Production,1841,25449.0
+http://www.example.com/myData/event_SC6_0084_04,Small Repair at Portsmouth,CombatCapabilityInvestment,1850-12,2917.0,NonProduction,1850,2917.0
+http://www.example.com/myData/event_SC6_0084_05,Fitted for sea,CombatCapabilityInvestment,1854-04,7057.0,NonProduction,1854,7057.0
+http://www.example.com/myData/event_SC6_0084_09,Reconstructed and refitted as a training vessel,NonCombatDutyInvestment,1875-03,11289.0,NonProduction,1875,11289.0
+http://www.example.com/myData/event_SC6_0093_01,Construction of Dauntless,CombatCapabilityInvestment,1845-02-12,96441.0,Production,1845,96441.0
+http://www.example.com/myData/event_SC6_0102_01,Built at Devonport Dockyard,CombatCapabilityInvestment,1853-04-02,74185.0,Production,1853,74185.0
+http://www.example.com/myData/event_SC6_0103_01,"Construction at Chatham Dyd/John Penn & Son (1,526ihp = 11.825kts)",CombatCapabilityInvestment,1855-05-10,70171.0,Production,1855,70171.0
+http://www.example.com/myData/event_SC6_0110_01,"Construction at Sheerness Dyd/Miller , Ravenhill & Salkeld (1,540ihp = 11.202kts)",CombatCapabilityInvestment,1855-03-31,81651.0,Production,1855,81651.0
+http://www.example.com/myData/event_SCGVG_0004_01,"Construction by Miller, Ravenhill & Co.",CombatCapabilityInvestment,1845-05-22,13677.0,Production,1845,13677.0
+http://www.example.com/myData/event_SCGVG_0004_08,Converted at Woolwich to water tank steamer for Portland,NonCombatDutyInvestment,1859,2601.0,NonProduction,1859,2601.0
+http://www.example.com/myData/event_SCGVG_0016_01,Construction of HMS Ringdove,CombatCapabilityInvestment,1855-07-26,31748.0,Production,1855,31748.0
+http://www.example.com/myData/event_SCGVG_0020_01,"Built by Young, Magnay & Co., Limehouse with machinery by Humphrys, Tennant & Dykes",CombatCapabilityInvestment,1855-07-26,33095.0,Production,1855,33095.0
+http://www.example.com/myData/event_SCGVG_0024_01,"Built by R. & H. Green, Blackwall/Miller, Ravenhill & Co.",CombatCapabilityInvestment,1855-07-26,32517.0,Production,1855,32517.0
+http://www.example.com/myData/event_SCGVG_0026_01,Built at Pembroke Dyd. Ord: 18.4.1855. K: 7.1855. L: 19.1.1856. C: 31.5.1856.,CombatCapabilityInvestment,1855-04-18,48966.0,Production,1855,48966.0
+http://www.example.com/myData/event_SCGVG_0028_01,"Built by Wigram & Son, Blackwall. Completed 4.4.1856.",CombatCapabilityInvestment,1855-05-15,46114.0,Production,1855,46114.0
+http://www.example.com/myData/event_SCGVG_0061_01,"Built at W. & H. Pitcher, Northfleet with machinery by John Penn & Sons (215ihp)",CombatCapabilityInvestment,1854-06-16,8730.0,Production,1854,8730.0
+http://www.example.com/myData/event_SCGVG_0064_01,Built at Deptford Dyd/John Penn & Sons,CombatCapabilityInvestment,1854-06-16,9840.0,Production,1854,9840.0
+http://www.example.com/myData/event_SCGVG_0072_01,"Built by John Jenkins Thompson, Rotherhithe/Maudslay, Sons & Field (216ihp)",CombatCapabilityInvestment,1854-10-06,10324.0,Production,1854,10324.0
+http://www.example.com/myData/event_SCGVG_0087_01,Construction of Whiting,CombatCapabilityInvestment,1855-04-18,9538.0,Production,1855,9538.0
+http://www.example.com/myData/event_SCGVG_0104_01,"Built by W. & H. Pitcher, Northfleet/Maudslay, Sons & Field (223ihp)",CombatCapabilityInvestment,1855-06-30,10397.0,Production,1855,10397.0
+http://www.example.com/myData/event_SCGVG_0114_01,"Built by W. & H. Pitcher, Northfleet with machinery by Maudslay, Sons & Field",CombatCapabilityInvestment,1855-07-26,10311.0,Production,1855,10311.0
+http://www.example.com/myData/event_SCGVG_0115_01,"Built by W. & H. Pitcher, Northfleet with machinery by John Penn & Sons",CombatCapabilityInvestment,1855-07-26,10770.0,Production,1855,10770.0
+http://www.example.com/myData/event_SCGVG_0119_01,"Built by R. & H. Green, Blackwall. Machinery by Maudslay, Sons & Field.",CombatCapabilityInvestment,1855-07-26,10327.0,Production,1855,10327.0
+http://www.example.com/myData/event_SCGVG_0138_01,"Built by W. & H. Pitcher, Northfleet with machinery by Maudslay, Sons & Field (215ihp)",CombatCapabilityInvestment,1855-10-03,8840.0,Production,1855,8840.0
+http://www.example.com/myData/event_SCGVG_0139_01,"Built by W. & H. Pitcher, Northfleet with machinery by Maudslay, Sons & Field (215ihp)",CombatCapabilityInvestment,1855-10-03,8632.0,Production,1855,8632.0
+http://www.example.com/myData/event_SCGVG_0141_01,Construction of Flamer,CombatCapabilityInvestment,1855-10-04,12299.0,Production,1855,12299.0
+http://www.example.com/myData/event_SCGVG_0166_01,"Built at Laird & Co., Birkenhead",CombatCapabilityInvestment,1855-10-08,11130.0,Production,1855,11130.0
+http://www.example.com/myData/event_SCGVG_0167_01,"Built by Laird & Co., Birkenhead/John Penn & Sons",CombatCapabilityInvestment,1855-10-08,11116.0,Production,1855,11116.0
+http://www.example.com/myData/event_SCGVG_0168_01,Construction of Redbreast,CombatCapabilityInvestment,1855-10-08,9249.0,Production,1855,9249.0
+http://www.example.com/myData/event_SCGVG_0168_02,Fitting,CombatCapabilityInvestment,1856-04-14,1127.0,NonProduction,1856,1127.0
+http://www.example.com/myData/event_SCGVG_0173_01,"Built by Charles Hill & Sons, Bristol / Maudslay, Sons & Field",CombatCapabilityInvestment,1855-10-08,8999.0,Production,1855,8999.0
+http://www.example.com/myData/event_SCGVG_0187_01,Construction of Dwarf,CombatCapabilityInvestment,1855-11-14,7166.0,Production,1855,7166.0
+http://www.example.com/myData/event_SCGVG_0193_01,"Construction by Joyce, Greenwich/John Penn & Sons",CombatCapabilityInvestment,1855-11-23,6043.0,Production,1855,6043.0
+http://www.example.com/myData/event_SCGVG_0205_01,"Built by W. & H. Pitcher, Northfleet/John Penn & Sons",CombatCapabilityInvestment,1855-12-31,8264.0,Production,1855,8264.0
+http://www.example.com/myData/event_SCGVG_0207_01,"Built by W. & H. Pitcher, Northfleet (hull) and John Penn & Sons (machinery)",CombatCapabilityInvestment,1855-12-31,8443.0,Production,1855,8443.0
+http://www.example.com/myData/event_SCGVG_0221_01,"Built by W. & H. Pitcher, Northfleet",CombatCapabilityInvestment,1856-09-22,13970.0,Production,1856,13970.0
+http://www.example.com/myData/event_SCSL_0004_01,"Construction at Woolwich Dyd/Maudslay, Sons & Field",CombatCapabilityInvestment,1845-02-20,57597.0,Production,1845,57597.0
+http://www.example.com/myData/event_SCSL_0023_01,Built at Deptford Dockyard.,CombatCapabilityInvestment,1854-07-08,21917.0,Production,1854,21917.0
+http://www.example.com/myData/event_SCSL_0027_01,Built at Deptford Dockyard / George Rennie & Sons.,CombatCapabilityInvestment,1855-02-03,31928.0,Production,1855,31928.0
+http://www.example.com/myData/event_SCSL_0030_01,"Construction of Cameleon at Deptford Dyd/Maudslay, Sons & Field",CombatCapabilityInvestment,1854-04-03,35328.0,Production,1854,35328.0
+http://www.example.com/myData/event_SCS_0015_04,Fitted for sea at Plymouth (1-4.1814),CombatCapabilityInvestment,1814-01,3126.0,NonProduction,1814,3126.0
+http://www.example.com/myData/event_SCS_0015_08,Middling Repair at Plymouth (8.1824-1.1825),CombatCapabilityInvestment,1824-08,4901.0,NonProduction,1824,4901.0
+http://www.example.com/myData/event_SCS_0015_13,Fitted for sea at Plymouth (11.1831-3.1832),CombatCapabilityInvestment,1831-11,3345.0,NonProduction,1831,3345.0
+http://www.example.com/myData/event_SCS_0073_04,"Between a Small and a Middling Repair and fitted for sea at Portsmouth (for £3,245) 3-12.1841",CombatCapabilityInvestment,1841-03,3245.0,NonProduction,1841,3245.0
+http://www.example.com/myData/event_SCS_0077_02,Ex-slaver brigantine purchased 27.5.1840 at Rio de Janeiro for £834,CombatCapabilityInvestment,1840-05-27,834.0,NonProduction,1840,834.0
+http://www.example.com/myData/event_SF5_0018_01,"As built: 148ft 3in, 123ft 0.75in x 39ft 6.5in x 12ft 8in. 1,024 59/94 bm.",CombatCapabilityInvestment,1795-04-30,23012.0,Production,1795,23012.0
+http://www.example.com/myData/event_SF5_0019_01,As built: to design exactly. Draught 11 ft 3in/15ft 3in.,CombatCapabilityInvestment,1796-04-27,33972.0,Production,1796,33972.0
+http://www.example.com/myData/event_SF5_0021_04,Middling and Large Repair at Plymouth,CombatCapabilityInvestment,1815-02,44684.0,NonProduction,1815,44684.0
+http://www.example.com/myData/event_SF5_0026_03,"Small Repair at Chatham (for £5,652) 5-10.1817",CombatCapabilityInvestment,1817-05,5652.0,NonProduction,1817,5652.0
+http://www.example.com/myData/event_SF5_0026_04,"Fitted for sea at Chatham (for £14,836) 6-10.1820",CombatCapabilityInvestment,1820-06,14836.0,NonProduction,1820,14836.0
+http://www.example.com/myData/event_SF5_0026_07,"Between Small and Middling Repair and fitted for sea at Plymouth (for £24,415) 8.1825-8.1826",CombatCapabilityInvestment,1825-08,24415.0,NonProduction,1825,24415.0
+http://www.example.com/myData/event_SF5_0026_10,"Fitted for sea at Plymouth (for £10,017) 11.1832-8.1833",CombatCapabilityInvestment,1832-11,10017.0,NonProduction,1832,10017.0
+http://www.example.com/myData/event_SF5_0042_01,Built at Deptford Dockyard,CombatCapabilityInvestment,1806-03-25,35473.0,Production,1806,35473.0
+http://www.example.com/myData/event_SF5_0044_05,"Large Repair at Deptford (£28,650) 3.1817-2.1819",CombatCapabilityInvestment,1817-03,28650.0,NonProduction,1817,28650.0
+http://www.example.com/myData/event_SF5_0044_06,"Cut down into a 24-gun Sixth Rate corvette at Chatham (£15,057) 2-6.1831",CombatCapabilityInvestment,1831-02,15057.0,NonProduction,1831,15057.0
+http://www.example.com/myData/event_SF5_0044_10,"Fitted for sea at Chatham (£9,983) 2-7.1839",CombatCapabilityInvestment,1839-02,9983.0,NonProduction,1839,9983.0
+http://www.example.com/myData/event_SF5_0059_03,"Middling Repair at Chatham (for £16,579; ?plus £3,076)",CombatCapabilityInvestment,1828-10,19655.0,NonProduction,1828,19655.0
+http://www.example.com/myData/event_SF5_0059_04,Cut down into a 24-gun 6th Rate corvette and fitted for sea at Sheerness,CombatCapabilityInvestment,1844-09,13386.0,NonProduction,1844,13386.0
+http://www.example.com/myData/event_SF5_0059_08,Fitted for commission at Sheerness,CombatCapabilityInvestment,1850-04,3058.0,NonProduction,1850,3058.0
+http://www.example.com/myData/event_SF5_0059_09,Refitted for sea at Sheerness,CombatCapabilityInvestment,1856-06,6400.0,NonProduction,1856,6400.0
+http://www.example.com/myData/event_SF5_0059_12,Fitted as training ship for coast volunteers at Chatham,NonCombatDutyInvestment,1860-02,1479.0,NonProduction,1860,1479.0
+http://www.example.com/myData/event_SF5_0060_04,"Underwent Middling Repair at Plymouth (for £43,698) 5.1816-5.1818, housed over fore and aft",CombatCapabilityInvestment,1816-05,43698.0,NonProduction,1816,43698.0
+http://www.example.com/myData/event_SF5_0060_05,"Fitted at Plymouth as a 10-gun troopship (for £12,085) 11.1841-4.1842",NonCombatDutyInvestment,1841-11,12085.0,NonProduction,1841,12085.0
+http://www.example.com/myData/event_SF5_0063_05,"Large Repair at Deptford (for £26,680)",CombatCapabilityInvestment,1817-03,26680.0,NonProduction,1817,26680.0
+http://www.example.com/myData/event_SF5_0063_06,"Converted to a screw blockship, engine fitted, completed as guard ship, and fitted for sea",CombatCapabilityInvestment,1845-11,19793.0,NonProduction,1845,19793.0
+http://www.example.com/myData/event_SF5_0063_06,"Converted to a screw blockship, engine fitted, completed as guard ship, and fitted for sea",CombatCapabilityInvestment,1845-11,42804.0,NonProduction,1845,42804.0
+http://www.example.com/myData/event_SF5_0063_08,"Fitted as screw mortar ship at Sheerness (for £7,188)",CombatCapabilityInvestment,1855-10,7188.0,NonProduction,1855,7188.0
+http://www.example.com/myData/event_SF5_0069_04,"Middling Repair at Portsmouth (for £24,611) 7.1815-5.1816",CombatCapabilityInvestment,1815-07,24611.0,NonProduction,1815,24611.0
+http://www.example.com/myData/event_SF5_0069_06,"Fitted at Chatham as receiving ship (for £2,744) 12.1835-5.1837",NonCombatDutyInvestment,1835-12,2744.0,NonProduction,1835,2744.0
+http://www.example.com/myData/event_SF5_0072_01,"As built: 143ft 9in, 118ft ?in x 39ft 4.5in x 12ft 4in. 978 34/94bm.",CombatCapabilityInvestment,1805-06-13,20165.0,Production,1805,20165.0
+http://www.example.com/myData/event_SF5_0075_03,"Fitted at Chatham (for £8,432)",CombatCapabilityInvestment,1795-06,8432.0,NonProduction,1795,8432.0
+http://www.example.com/myData/event_SF5_0075_06,"Repaired by Hill & Mellish, Limehouse (for £12,144)",CombatCapabilityInvestment,1804-09,12144.0,NonProduction,1804,12144.0
+http://www.example.com/myData/event_SF5_0075_08,"Completed fitting at Deptford (for £9,449)",CombatCapabilityInvestment,1805-06,9449.0,NonProduction,1805,9449.0
+http://www.example.com/myData/event_SF5_0075_09,"Made good defects at Plymouth (for £14,324)",CombatCapabilityInvestment,1809-09,14324.0,NonProduction,1809,14324.0
+http://www.example.com/myData/event_SF5_0075_10,"Between Middling and Large Repair at Deptford (for £30,536)",CombatCapabilityInvestment,1815-04,30536.0,NonProduction,1815,30536.0
+http://www.example.com/myData/event_SF5_0075_12,"Between Small and Middling Repair at Chatham (for £10,042)",CombatCapabilityInvestment,1825-12,10042.0,NonProduction,1825,10042.0
+http://www.example.com/myData/event_SF5_0137_03,Fitted at Plymouth as a coal depot (8-12.1843),NonCombatDutyInvestment,1843-08,10557.0,NonProduction,1843,10557.0
+http://www.example.com/myData/event_SF5_0156_01,Construction of HMS Africaine,CombatCapabilityInvestment,1822-01-08,29934.0,Production,1822,29934.0
+http://www.example.com/myData/event_SF5_0163_01,Construction of HMS Flora,CombatCapabilityInvestment,1833-03-11,35424.0,Production,1833,35424.0
+http://www.example.com/myData/event_SF5_0165_02,Fitting for sea at Plymouth (5.1853-23.8.1853),CombatCapabilityInvestment,1853-05,14410.0,NonProduction,1853,14410.0
+http://www.example.com/myData/event_SF5_0168_01,"As built: 164ft 2¼in, 135ft 10in x 46ft 8¾in oa (46ft 0¾in for tonnage) x 13ft 6½in. 1,533bm. 1,894 disp.",CombatCapabilityInvestment,1842-04-23,51926.0,Production,1842,51926.0
+http://www.example.com/myData/event_SF5_0170_01,Completed at Chatham as screw frigate blockship,CombatCapabilityInvestment,1845-11,42804.0,Production,1845,42804.0
+http://www.example.com/myData/event_SL1_0002_01,Construction of HMS Victory,CombatCapabilityInvestment,1758-12-13,63174.15,Production,1758,63174.15
+http://www.example.com/myData/event_SL1_0002_03,Fitted for sea (2-4.1778),CombatCapabilityInvestment,1778-02,13296.0,NonProduction,1778,13296.0
+http://www.example.com/myData/event_SL1_0002_08,Large Repair at Portsmouth (12.1787-4.1788),CombatCapabilityInvestment,1787-12,37523.0,NonProduction,1787,37523.0
+http://www.example.com/myData/event_SL1_0002_09,Refitted at Portsmouth (to 1789),CombatCapabilityInvestment,1788-04,6451.0,NonProduction,1788,6451.0
+http://www.example.com/myData/event_SL1_0002_19,Middling Repair (later Large Repair) at Chatham (2.1800-4.1803),CombatCapabilityInvestment,1800-02,70933.0,NonProduction,1800,70933.0
+http://www.example.com/myData/event_SL1_0002_22,Repairs and refit at Chatham (3-5.1806),CombatCapabilityInvestment,1806-03,9936.0,NonProduction,1806,9936.0
+http://www.example.com/myData/event_SL1_0002_26,Large Repair at Portsmouth (3.1814-1.1816),CombatCapabilityInvestment,1814-03,79772.0,NonProduction,1814,79772.0
+http://www.example.com/myData/event_SL1_0008_01,Construction at Plymouth Dockyard,CombatCapabilityInvestment,1772-02-03,67458.0,Production,1772,67458.0
+http://www.example.com/myData/event_SL1_0008_07,Fitted for sea (3-6.1793),CombatCapabilityInvestment,1793-03,22181.0,NonProduction,1793,22181.0
+http://www.example.com/myData/event_SL1_0008_08,"Between Middling and Large Repair, and fitted, at Plymouth (5.1806-1.1807)",CombatCapabilityInvestment,1806-05,63600.0,NonProduction,1806,63600.0
+http://www.example.com/myData/event_SL1_0009_05,Lengthened at Portsmouth (5-11.1796),CombatCapabilityInvestment,1796-05,31267,NonProduction,1796,31267.0
+http://www.example.com/myData/event_SL1_0009_07,Very Small Repair at Plymouth (5-6.1802),CombatCapabilityInvestment,1802-05,8668,NonProduction,1802,8668.0
+http://www.example.com/myData/event_SL1_0009_08,Fitted at Plymouth (4.1803-1.1804),CombatCapabilityInvestment,1803-04,17110,NonProduction,1803,17110.0
+http://www.example.com/myData/event_SL1_0009_11,Fitted at Plymouth as a guard ship (8-10.1813),CombatCapabilityInvestment,1813-08,20861,NonProduction,1813,20861.0
+http://www.example.com/myData/event_SL1_0015_01,Construction at Chatham Dockyard,CombatCapabilityInvestment,1790-12-09,73241.0,Production,1790,73241.0
+http://www.example.com/myData/event_SL1_0015_03,Fitted at Plymouth (5.1803-2.1804),CombatCapabilityInvestment,1803-05,16898.0,NonProduction,1803,16898.0
+http://www.example.com/myData/event_SL1_0015_06,Fitted at Portsmouth (6.1806-9.1807),CombatCapabilityInvestment,1806-06,25352.0,NonProduction,1806,25352.0
+http://www.example.com/myData/event_SL1_0015_09,Fitted at Plymouth as a receiving ship (9.1819-6.1820),NonCombatDutyInvestment,1819-09,27733.0,NonProduction,1819,27733.0
+http://www.example.com/myData/event_SL1_0016_01,"As built: 196ft 6½in, 164ft 01/sin x 51 ft 1 in x 21 ft 6in. 2,27649194bm.",CombatCapabilityInvestment,1797-10-01,90076.0,Production,1797,90076.0
+http://www.example.com/myData/event_SL1_0016_04,"Small repair and fitted at Plymouth (1.1811-4.1812) for £49,622",CombatCapabilityInvestment,1811-01,49622.0,NonProduction,1811,49622.0
+http://www.example.com/myData/event_SL1_0016_08,"Between Small and Middling Repair, and cut down to 80-gun Third Rate two-decker (for £48,753) 9.1819-7.1821",CombatCapabilityInvestment,1819-09,48753.0,NonProduction,1819,48753.0
+http://www.example.com/myData/event_SL1_0016_09,"Fitted at Plymouth as a guard ship (for £11,032) 3.1824-7.1824",NonCombatDutyInvestment,1824-03,11032.0,NonProduction,1824,11032.0
+http://www.example.com/myData/event_SL1_0018_04,Fitted for sea at Plymouth (4-5.1815),CombatCapabilityInvestment,1815-04,24205.0,NonProduction,1815,24205.0
+http://www.example.com/myData/event_SL1_0018_07,Between Middling and Large Repair and fitted for guard ship at Plymouth,CombatCapabilityInvestment,1826-05,123350.0,NonProduction,1826,123350.0
+http://www.example.com/myData/event_SL1_0018_10,Fitted as a demonstration ship at Plymouth,NonCombatDutyInvestment,1838-02,8909.0,NonProduction,1838,8909.0
+http://www.example.com/myData/event_SL1_0018_11,Fitted as a flagship at Plymouth,CombatCapabilityInvestment,1840-11,6129.0,NonProduction,1840,6129.0
+http://www.example.com/myData/event_SL1_0018_15,Fitted for hospital ship duty at Woolwich,NonCombatDutyInvestment,1856-07,3041.0,NonProduction,1856,3041.0
+http://www.example.com/myData/event_SL1_0041_01,Conversion to screw propulsion at Portsmouth,CombatCapabilityInvestment,1852-10-30,208052.0,Production,1852,208052.0
+http://www.example.com/myData/event_SL2_0004_03,Fitted at Portsmouth (20.6.1794-12.4.1795),CombatCapabilityInvestment,1794-06-20,19051.0,NonProduction,1794,19051.0
+http://www.example.com/myData/event_SL2_0004_05,Refitted at Portsmouth (10-11.1796),CombatCapabilityInvestment,1796-10,11062.0,NonProduction,1796,11062.0
+http://www.example.com/myData/event_SL2_0004_06,Refitted at Portsmouth (8-11.1798),CombatCapabilityInvestment,1798-08,18578.0,NonProduction,1798,18578.0
+http://www.example.com/myData/event_SL2_0004_09,Converted to a sheer hulk at Plymouth,NonCombatDutyInvestment,1810-09,7484.0,NonProduction,1810,7484.0
+http://www.example.com/myData/event_SL2_0005_07,Defects made good at Plymouth (6-8.1806),CombatCapabilityInvestment,1806-06,31804.0,NonProduction,1806,31804.0
+http://www.example.com/myData/event_SL2_0005_09,Large Repair at Plymouth (3.1814-3.1816),CombatCapabilityInvestment,1814-03,78909.0,NonProduction,1814,78909.0
+http://www.example.com/myData/event_SL2_0005_10,Fitted for sea at Plymouth (5.1834),CombatCapabilityInvestment,1834-05,15179.0,NonProduction,1834,15179.0
+http://www.example.com/myData/event_SL2_0005_11,Between a Small and Middling Repair at Plymouth (12.1839-5.1842),CombatCapabilityInvestment,1839-12,20816.0,NonProduction,1839,20816.0
+http://www.example.com/myData/event_SL2_0005_12,Fitted for sea at Plymouth (1-5.1845),CombatCapabilityInvestment,1845-01,22079.0,NonProduction,1845,22079.0
+http://www.example.com/myData/event_SL2_0012_03,"Between Small and Middling Repair at Chatham for £14,904",CombatCapabilityInvestment,1827-10,14904.0,NonProduction,1827,14904.0
+http://www.example.com/myData/event_SL2_0012_04,"Small Repair and fitted for sea at Sheerness for £22,093",CombatCapabilityInvestment,1838-01,22093.0,NonProduction,1838,22093.0
+http://www.example.com/myData/event_SL2_0012_07,"Fitted as a gunnery training ship at Plymouth for £5,373",NonCombatDutyInvestment,1856-08,5373.0,NonProduction,1856,5373.0
+http://www.example.com/myData/event_SL2_0014_01,Built at Bombay,CombatCapabilityInvestment,1816-06-04,74498.0,Production,1816,74498.0
+http://www.example.com/myData/event_SL2_0014_04,Fitting at Portsmouth (as guard ship),NonCombatDutyInvestment,1822-10-12,30323.0,NonProduction,1822,30323.0
+http://www.example.com/myData/event_SL2_0027_04,Refitted at Portsmouth,CombatCapabilityInvestment,1840-04,14931.0,NonProduction,1840,14931.0
+http://www.example.com/myData/event_SL2_0027_06,Fitted for sea at Plymouth,CombatCapabilityInvestment,1844-09,7693.0,NonProduction,1844,7693.0
+http://www.example.com/myData/event_SL2_0027_09,Small Repair at Plymouth,CombatCapabilityInvestment,1849-05,20004.0,NonProduction,1849,20004.0
+http://www.example.com/myData/event_SL2_0055_01,Steam conversion at Chatham Dyd,CombatCapabilityInvestment,1855-05-01,37746.0,NonProduction,1855,37746.0
+http://www.example.com/myData/event_SL2_0065_01,Conversion to screw propulsion at Pembroke,CombatCapabilityInvestment,1854-06-23,122100.0,NonProduction,1854,122100.0
+http://www.example.com/myData/event_SL3_0002_03,Fitted at Chatham (3.1771),CombatCapabilityInvestment,1771-03,7939.62,NonProduction,1771,7939.62
+http://www.example.com/myData/event_SL3_0002_06,Fitted at Chatham (8.1778-3.1779),CombatCapabilityInvestment,1778-08,8470.48,NonProduction,1778,8470.48
+http://www.example.com/myData/event_SL3_0002_07,Refitted and coppered (12.1779-2.1780),CombatCapabilityInvestment,1779-12,5853.85,NonProduction,1779,5853.85
+http://www.example.com/myData/event_SL3_0002_09,Small to Middling Repair at Chatham (5-11.1782),CombatCapabilityInvestment,1782-05,18321.08,NonProduction,1782,18321.08
+http://www.example.com/myData/event_SL3_0002_11,Great Repair at Portsmouth (1.1792-1.1795),CombatCapabilityInvestment,1792-01,46499.0,NonProduction,1792,46499.0
+http://www.example.com/myData/event_SL3_0023_04,"Fitted at Portsmouth (8.1790) for £4,339",CombatCapabilityInvestment,1790-08,4339.0,NonProduction,1790,4339.0
+http://www.example.com/myData/event_SL3_0023_07,"Fitted at Portsmouth (6.1793) for £6,218",CombatCapabilityInvestment,1793-06,6218.0,NonProduction,1793,6218.0
+http://www.example.com/myData/event_SL3_0023_09,"Fitted at Chatham (8.1797-2.1798) for £19,121",CombatCapabilityInvestment,1797-08,19121.0,NonProduction,1797,19121.0
+http://www.example.com/myData/event_SL3_0025_01,"Construction by Thomas Raymond, Northam (1781-1786)",CombatCapabilityInvestment,1781-12-27,44483.0,Production,1781,44483.0
+http://www.example.com/myData/event_SL3_0025_07,Made good defects at Plymouth (2-4.1797),CombatCapabilityInvestment,1797-02,12475.0,NonProduction,1797,12475.0
+http://www.example.com/myData/event_SL3_0025_08,Made good defects at Portsmouth (10.1798-1.1799),CombatCapabilityInvestment,1798-10,9158.0,NonProduction,1798,9158.0
+http://www.example.com/myData/event_SL3_0025_10,Fitted at Portsmouth (5-8.1805),CombatCapabilityInvestment,1805-05,9135.0,NonProduction,1805,9135.0
+http://www.example.com/myData/event_SL3_0025_13,Repaired and cut down to a 58-gun Fourth Rate frigate at Plymouth (4-12.1813),CombatCapabilityInvestment,1813-04,50423.0,NonProduction,1813,50423.0
+http://www.example.com/myData/event_SL3_0025_17,Small Repair and altered at Plymouth (10-12.1817),CombatCapabilityInvestment,1817-10,14210.0,NonProduction,1817,14210.0
+http://www.example.com/myData/event_SL3_0025_19,Fitted as Harbour flag and receiving ship at Pembroke (7-11.1845),NonCombatDutyInvestment,1845-07,2925.0,NonProduction,1845,2925.0
+http://www.example.com/myData/event_SL3_0027_03,Fitted for sea at Chatham,CombatCapabilityInvestment,1790,4620.42,NonProduction,1790,4620.42
+http://www.example.com/myData/event_SL3_0027_06,Fitted at Chatham,CombatCapabilityInvestment,1792,4164.0,NonProduction,1792,4164.0
+http://www.example.com/myData/event_SL3_0027_08,Made good defects at Portsmouth,CombatCapabilityInvestment,1795-10,8103.0,NonProduction,1795,8103.0
+http://www.example.com/myData/event_SL3_0027_09,Middling Repair and fitted at Portsmouth,CombatCapabilityInvestment,1800-09,32608.0,NonProduction,1800,32608.0
+http://www.example.com/myData/event_SL3_0027_10,Refitted at Portsmouth,CombatCapabilityInvestment,1804-09,11914.0,NonProduction,1804,11914.0
+http://www.example.com/myData/event_SL3_0027_11,Repairs at Plymouth,CombatCapabilityInvestment,1805-12,18082.0,NonProduction,1805,18082.0
+http://www.example.com/myData/event_SL3_0040_01,Construction at Deptford Green,CombatCapabilityInvestment,1795-04-30,56103.0,Production,1795,56103.0
+http://www.example.com/myData/event_SL3_0040_05,Large Repair at Chatham (9.1813-4.1815),CombatCapabilityInvestment,1813-09,57475.0,NonProduction,1813,57475.0
+http://www.example.com/myData/event_SL3_0041_01,"Built at Deptford by John Dudman. As built: 182ft 0in, 150ft 3in x 48ft 9in x 21ft 7in. 1,899 bm.",CombatCapabilityInvestment,1795-04-30,56183.0,Production,1795,56183.0
+http://www.example.com/myData/event_SL3_0051_04,"Large Repair at Chatham (12.1810-6.1813) for £71,268",CombatCapabilityInvestment,1810-12,71268.0,NonProduction,1810,71268.0
+http://www.example.com/myData/event_SL3_0051_06,"Fitted as guard ship at Sheerness (6.1816) for £11,635",NonCombatDutyInvestment,1816-06,11635.0,NonProduction,1816,11635.0
+http://www.example.com/myData/event_SL3_0051_07,"Fitted for sea at Portsmouth (7-9.1825) for £6,190",CombatCapabilityInvestment,1825-07,6190.0,NonProduction,1825,6190.0
+http://www.example.com/myData/event_SL3_0056_01,"Built by Josiah & Thomas Brindley, Frindsbury",CombatCapabilityInvestment,1804-06,72869.0,Production,1804,72869.0
+http://www.example.com/myData/event_SL3_0056_05,Fitted as a receiving ship at Chatham,NonCombatDutyInvestment,1823-07,3834.0,NonProduction,1823,3834.0
+http://www.example.com/myData/event_SL3_0057_01,Built at Deptford Dockyard,CombatCapabilityInvestment,1805-10,67038.0,Production,1805,67038.0
+http://www.example.com/myData/event_SL3_0057_02,Completed at Woolwich,CombatCapabilityInvestment,1808-05-11,2954.0,NonProduction,1808,2954.0
+http://www.example.com/myData/event_SL3_0057_04,Defects made good at Portsmouth,CombatCapabilityInvestment,1814-03,23281.0,NonProduction,1814,23281.0
+http://www.example.com/myData/event_SL3_0067_02,"Completed at Woolwich (9.1806-24.10.1806) for £26,172",CombatCapabilityInvestment,1806-09,26172.0,NonProduction,1806,26172.0
+http://www.example.com/myData/event_SL3_0067_04,"Defects made good at Plymouth (2-5.1812) for £24,835",CombatCapabilityInvestment,1812-02,24835.0,NonProduction,1812,24835.0
+http://www.example.com/myData/event_SL3_0072_01,"As built: 176ft 1in, 145ft 0 1/8in x 47ft 9 3/4in x 21ft 1in. 1,763 63/94bm.",CombatCapabilityInvestment,1806-10-01,56855.0,Production,1806,56855.0
+http://www.example.com/myData/event_SL3_0072_02,Completed at Chatham for Ordinary,CombatCapabilityInvestment,1810-03-07,9893.0,NonProduction,1810,9893.0
+http://www.example.com/myData/event_SL3_0072_04,Completed at Sheerness for Sea,CombatCapabilityInvestment,1811-01,16863.0,NonProduction,1811,16863.0
+http://www.example.com/myData/event_SL3_0072_06,Made good defects at Portsmouth,CombatCapabilityInvestment,1813-09,16803.0,NonProduction,1813,16803.0
+http://www.example.com/myData/event_SL3_0080_01,"Construction (Ord: 23.6.1807, K: 2.1808, L: 1.1.1812)",CombatCapabilityInvestment,1807-06-23,58412.0,Production,1807,58412.0
+http://www.example.com/myData/event_SL3_0080_05,Small Repair at Plymouth (1-3.1815),CombatCapabilityInvestment,1815-01,16484.0,NonProduction,1815,16484.0
+http://www.example.com/myData/event_SL3_0080_06,Between Middling and Large Repair at Plymouth (3.1816-10.1819),CombatCapabilityInvestment,1816-03,58955.0,NonProduction,1816,58955.0
+http://www.example.com/myData/event_SL3_0080_07,Fitted as a lazarette at Pembroke (8-9.1836),NonCombatDutyInvestment,1836-08,146.0,NonProduction,1836,146.0
+http://www.example.com/myData/event_SL3_0080_08,Fitted as a Powder ship at Pembroke (8-9.1844),NonCombatDutyInvestment,1844-08,1637.0,NonProduction,1844,1637.0
+http://www.example.com/myData/event_SL3_0088_04,Small Repair at Portsmouth (5.1813-1.1814),CombatCapabilityInvestment,1813-05,24489.0,NonProduction,1813,24489.0
+http://www.example.com/myData/event_SL3_0089_01,"Built by John Dudman, Deptford",CombatCapabilityInvestment,1807-07-13,58420.0,Production,1807,58420.0
+http://www.example.com/myData/event_SL3_0089_02,Fitting at Woolwich,CombatCapabilityInvestment,1811-12-13,26632.0,NonProduction,1811,26632.0
+http://www.example.com/myData/event_SL3_0092_05,Large Repair at Plymouth (1.1816-4.1819),CombatCapabilityInvestment,1816-01,66920.0,NonProduction,1816,66920.0
+http://www.example.com/myData/event_SL3_0101_05,"Large Repair at Woolwich for £53,889",CombatCapabilityInvestment,1817-03,53889.0,NonProduction,1817,53889.0
+http://www.example.com/myData/event_SL3_0107_06,Fitted as receiving and depot ship at Sheerness,NonCombatDutyInvestment,1848-06,5268.0,NonProduction,1848,5268.0
+http://www.example.com/myData/event_SL3_0109_03,Small Repair and fitted at Plymouth,CombatCapabilityInvestment,1807-09,34585.0,NonProduction,1807,34585.0
+http://www.example.com/myData/event_SL3_0109_05,Very Large Repair at Plymouth,CombatCapabilityInvestment,1812-10,66857.0,NonProduction,1812,66857.0
+http://www.example.com/myData/event_SL3_0109_07,Small repair at Plymouth,CombatCapabilityInvestment,1826-07,20510.0,NonProduction,1826,20510.0
+http://www.example.com/myData/event_SL3_0109_09,Fitted for sea at Plymouth,CombatCapabilityInvestment,1839-02,12552.0,NonProduction,1839,12552.0
+http://www.example.com/myData/event_SL3_0140_01,"Construction by Randall & Co., Rotherhithe",CombatCapabilityInvestment,1797-01-29,38791.0,Production,1797,38791.0
+http://www.example.com/myData/event_SL3_0140_03,"Refitted (4-5.1799) for £9,021",CombatCapabilityInvestment,1799-04,9021.0,NonProduction,1799,9021.0
+http://www.example.com/myData/event_SL3_0144_03,Fitted as storeship at Woolwich (9.1797-5.1798),NonCombatDutyInvestment,1797-09,15567.0,NonProduction,1797,15567.0
+http://www.example.com/myData/event_SL3_0150_03,Fitted at Chatham for sea service (2.1833-4.1834),CombatCapabilityInvestment,1833-02,19060.0,NonProduction,1833,19060.0
+http://www.example.com/myData/event_SL3_0150_05,Fitted at Sheerness to convey Lord Durham to Canada (1-4.1838),NonCombatDutyInvestment,1838-01,13624.0,NonProduction,1838,13624.0
+http://www.example.com/myData/event_SL3_0150_06,Fitted at Portsmouth to convey the Queen Dowager to Malta (7-10.1838),NonCombatDutyInvestment,1838-07,5047.0,NonProduction,1838,5047.0
+http://www.example.com/myData/event_SL3_0150_09,Converted to Advanced ship at Portsmouth (2.1842-12.1843),CombatCapabilityInvestment,1842-02,9710.0,NonProduction,1842,9710.0
+http://www.example.com/myData/event_SL3_0150_11,Fitted for sea at Portsmouth (4-7.1848),CombatCapabilityInvestment,1848-04,12252.0,NonProduction,1848,12252.0
+http://www.example.com/myData/event_SL3_0151_02,Fitted as an Advanced ship (8.1845-1.1846),CombatCapabilityInvestment,1845-08,11852.0,NonProduction,1845,11852.0
+http://www.example.com/myData/event_SL3_0151_04,Fitted as a flagship at Chatham (1-2.1851),CombatCapabilityInvestment,1851-01,17410.0,NonProduction,1851,17410.0
+http://www.example.com/myData/event_SL3_0151_08,Defects made good at Plymouth (8-10.1858),CombatCapabilityInvestment,1858-08,13077.0,NonProduction,1858,13077.0
+http://www.example.com/myData/event_SL4_0006_01,Fitted and launched for the Royal Navy,CombatCapabilityInvestment,1795-05-15,7396.0,Production,1795,7396.0
+http://www.example.com/myData/event_SL4_0006_03,Fitted as guard ship at Sheerness (7-8.1801),NonCombatDutyInvestment,1801-07,2147.0,NonProduction,1801,2147.0
+http://www.example.com/myData/event_SL4_0011_05,Small Repair,CombatCapabilityInvestment,1821-07,8842.0,NonProduction,1821,8842.0
+http://www.example.com/myData/event_SL4_0011_06,Fitted to carry the new Governor-General to India,NonCombatDutyInvestment,1822-05,9019.0,NonProduction,1822,9019.0
+http://www.example.com/myData/event_SL4_0011_10,Fitted as troopship at Plymouth,NonCombatDutyInvestment,1832-04,15671.0,NonProduction,1832,15671.0
+http://www.example.com/myData/event_SL4_0011_11,Fitted at Woolwich to convey the Governor-General (Earl of Auckland) to India and re-rated 38-gun,NonCombatDutyInvestment,1835-09,2679.0,NonProduction,1835,2679.0
+http://www.example.com/myData/event_SL4_0011_14,Refitted at Portsmouth as troopship,NonCombatDutyInvestment,1837-08,6158.0,NonProduction,1837,6158.0
+http://www.example.com/myData/event_SL4_0016_02,"Fitted at Woolwich (10-12.1802) for £12,625",CombatCapabilityInvestment,1802-10,12625.0,NonProduction,1802,12625.0
+http://www.example.com/myData/event_SL4_0016_06,Sold to John Small Sedger at Plymouth to BU 30.4.1817,NonCombatDutyInvestment,1817-04-30,2810.0,NonProduction,1817,2810.0
+http://www.example.com/myData/event_SL4_0025_01,"As built: 176ft 5in, 149ft 5¾in x 44ft 5in x 15ft 1½in. 1,556bm.",CombatCapabilityInvestment,1813-05-06,39192.0,Production,1813,39192.0
+http://www.example.com/myData/event_SL4_0025_08,"Small Repair at Chatham (for £4,658)",CombatCapabilityInvestment,1818-04,4658.0,NonProduction,1818,4658.0
+http://www.example.com/myData/event_SL4_0038_01,Conversion from a 74-gun ship of 1811,CombatCapabilityInvestment,1826-05-31,41346.0,Production,1826,41346.0
+http://www.example.com/myData/event_SL4_0038_04,"Fitted for sea at Woolwich (9.1830-6.1831) for £19,978",CombatCapabilityInvestment,1830-09,19978.0,NonProduction,1830,19978.0
+http://www.example.com/myData/event_SL4_0047_01,"As built: 176ft 0in, 144ft 6 3/8in x 52ft 8 1/2in oa (52ft 0 1/4in for tonnage) x 17ft 1in. 2,082 15/94bm.",CombatCapabilityInvestment,1831-08-24,64161.0,Production,1831,64161.0
+http://www.example.com/myData/event_SL4_0047_07,"Repair at Sheerness for £12,470",CombatCapabilityInvestment,1837-04,12470.0,NonProduction,1837,12470.0
+http://www.example.com/myData/event_SL4_0047_08,"Fitted for sea at Sheerness for £8,444",CombatCapabilityInvestment,1840-10,8444.0,NonProduction,1840,8444.0
+http://www.example.com/myData/event_SL4_0047_11,"Fitted for sea at Sheerness for £14,737",CombatCapabilityInvestment,1844-06,14737.0,NonProduction,1844,14737.0
+http://www.example.com/myData/event_SL4_0047_13,"Large Repair at Chatham for £18,349",CombatCapabilityInvestment,1848-11,18349.0,NonProduction,1848,18349.0
+http://www.example.com/myData/event_SL4_0049_02,Cut down and fitting for sea at Woolwich Dyd,CombatCapabilityInvestment,1844-05,27610.0,NonProduction,1844,27610.0
+http://www.example.com/myData/event_SL4_0059_01,"Conversion to screw propulsion. Begun: 1.12.1845, L: 1846, C: 12.1846-28.7.1849",CombatCapabilityInvestment,1845-12-01,81525.0,NonProduction,1845,81525.0
+http://www.example.com/myData/event_SL4_0059_06,Fitted for coastguard service at Plymouth (3-4.1858),NonCombatDutyInvestment,1858-03,3680.0,NonProduction,1858,3680.0
+http://www.example.com/myData/event_SL4_0069_01,Construction of Topaze,CombatCapabilityInvestment,1852-03-27,103673.0,Production,1852,103673.0
+http://www.example.com/myData/event_SL4_0074_01,"Built at Deptford Dyd/Maudslay, Sons & Field",CombatCapabilityInvestment,1854-04-03,147496.0,Production,1854,147496.0
+http://www.example.com/myData/event_SL4_0080_01,Conversion at Devenport Dyd/John Penn & Son (787ihp = 7.1 88kts),CombatCapabilityInvestment,1854-10-09,39521.0,NonProduction,1854,39521.0
+http://www.example.com/myData/event_SL4_0081_01,"Conversion to screw propulsion at Chatham Dyd. Dimensions: 176ft 1in, 144ft 10½in x 48ft 5½in oa (47ft 8½in for tonnage) x 21ft 1½in. 1,754bm. 2,808 disp.",CombatCapabilityInvestment,1854-10-10,35577.0,Production,1854,35577.0
+http://www.example.com/myData/event_SM_0002_06,"Large Repair at Portsmouth (for £12,487)",CombatCapabilityInvestment,1821-03,12487.0,NonProduction,1821,12487.0
+http://www.example.com/myData/event_SM_0002_07,"Fitted for sea at Portsmouth (for £4,626)",CombatCapabilityInvestment,1824-04,4626.0,NonProduction,1824,4626.0
+http://www.example.com/myData/event_SM_0002_08,"Fitted for sea at Portsmouth (for £6,861)",CombatCapabilityInvestment,1827-12,6861.0,NonProduction,1827,6861.0
+http://www.example.com/myData/event_SM_0002_09,"Small Repair at Plymouth (for £7,839)",CombatCapabilityInvestment,1828-11,7839.0,NonProduction,1828,7839.0
+http://www.example.com/myData/event_SM_0002_11,"Converted to Arctic discovery vessel at Chatham (for £6,940)",NonCombatDutyInvestment,1836-01,6940.0,NonProduction,1836,6940.0
+http://www.example.com/myData/event_SM_0002_14,"Fitted for expedition to South Pole (for £6,765) and coppered",NonCombatDutyInvestment,1839-04,6765.0,NonProduction,1839,6765.0
+http://www.example.com/myData/event_SM_0017_02,Purchased 4.12.1846 from the Earl of Yarborough,CombatCapabilityInvestment,1846-12-04,2727.0,NonProduction,1846,2727.0
+http://www.example.com/myData/event_SM_0017_03,Fitted as packet at Portsmouth (23.2.1847-4.5.1847),CombatCapabilityInvestment,1847-02-23,1505.0,NonProduction,1847,1505.0
+http://www.example.com/myData/event_SM_0052_01,"Built by Money Wigram & Son, Blackwall",CombatCapabilityInvestment,1854-10-06,3465.0,Production,1854,3465.0
+http://www.example.com/myData/event_SM_0058_01,"Built by R. & H. Green, Blackwall (No. 317)",CombatCapabilityInvestment,1854-12-22,4921.0,Production,1854,4921.0
+http://www.example.com/myData/event_SSL_0004_03,"Completed fitting at Portsmouth (for £4,792) 14.8.1796",CombatCapabilityInvestment,1796-05-20,4792.0,NonProduction,1796,4792.0
+http://www.example.com/myData/event_SSL_0006_03,"Made good defects at Sheerness (for £2,614) to 21.4.1799",CombatCapabilityInvestment,1799-01-27,2614.0,NonProduction,1799,2614.0
+http://www.example.com/myData/event_SSL_0015_04,Fitted for sea at Plymouth,CombatCapabilityInvestment,1822-03,12468.0,NonProduction,1822,12468.0
+http://www.example.com/myData/event_SSL_0015_07,Fitted for sea at Plymouth,CombatCapabilityInvestment,1828-08,11692.0,NonProduction,1828,11692.0
+http://www.example.com/myData/event_SSL_0015_10,Fitted for sea at Plymouth,CombatCapabilityInvestment,1830-11,5820.0,NonProduction,1830,5820.0
+http://www.example.com/myData/event_SSL_0015_13,Fitted as coal depot at Portsmouth,NonCombatDutyInvestment,1836-08,1775.0,NonProduction,1836,1775.0
+http://www.example.com/myData/event_SSL_0049_01,"As built: 112ft 0in, 92ft 1 3/4in x 31ft 2 1/4in oa (30ft 10 1/4in for tonnage) x 13ft 10in. 466 41/94bm.",CombatCapabilityInvestment,1825-06-09,15791.0,Production,1825,15791.0
+http://www.example.com/myData/event_SSL_0049_03,"Refit at Plymouth (5-11.1832) for £6,302",CombatCapabilityInvestment,1832-05,6302.0,NonProduction,1832,6302.0
+http://www.example.com/myData/event_SSL_0049_06,"Refit at Plymouth and coppered (7-11.1836) for £3,911",CombatCapabilityInvestment,1836-07,3911.0,NonProduction,1836,3911.0
+http://www.example.com/myData/event_SSL_0049_09,"Refitted at Portsmouth (8.1841-7.1842) for £9,658",CombatCapabilityInvestment,1841-08,9658.0,NonProduction,1841,9658.0
