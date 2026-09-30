@@ -405,8 +405,8 @@ myData:event_AIF_0001_06 a :Refit ;
   :modifies_ship myData:AIF_0001 ;
   crm:P4_has_time-span [
     a crm:E52_Time-Span ;
-    crm:P79_beginning_is_qualified_by "1871-09"^^xsd:gYearMonth ;
-    crm:P80_end_is_qualified_by "1875-06"^^xsd:gYearMonth ] .
+    crm:P79_beginning_is_qualified_by "1871-09-15"^^xsd:date ;
+    crm:P80_end_is_qualified_by "1875-06-11"^^xsd:date ] .
 
 myData:presence_AIF_0001_05 a crm:E93_Presence ;
   rdfs:label "Undergoing refit (1871-1875)"@en ;
