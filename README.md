@@ -7,3 +7,10 @@
 小風尚樹（PI、千葉大学）
 小川潤（東京大学）
 大向一輝（東京大学）
+
+## 典拠資料と原文の扱い
+艦船のキャリア記述は、以下の文献に依拠しています。
+
+Winfield, Rif. *British Warships in the Age of Sail, 1817–1863: Design, Construction, Careers and Fates*. Seaforth Publishing, 2014.
+
+典拠文献の原文は著作権上の理由により本リポジトリでは公開しません。`strata/` には層化抽出した艦の識別情報（区分・クラス・艦名・ID）のみを収録しています。各艦の原文は上記文献の該当区分を参照してください。
